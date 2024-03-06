@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://blog.menghuan1918.com/theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="https://blog.menghuan1918.com/theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="https://blog.menghuan1918.com/theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="https://blog.menghuan1918.com/theme/pygments/github.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://blog.menghuan1918.com/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://blog.menghuan1918.com/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://blog.menghuan1918.com/theme/font-awesome/css/solid.css">
+
+
+  <link rel="shortcut icon" href="https://blog.menghuan1918.com/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://blog.menghuan1918.com/images/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#86cde9">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#86cde9">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Microsoft EDGE -->
+  <meta name="msapplication-TileColor" content="#86cde9">
+
+
+
+
+ 
+
+<meta name="author" content="menghuan1918" />
+<meta name="description" content="最近在跟着学习南京大学蒋老师的(操作系统课程)[https://jyywiki.cn/OS/2024/]，虽然第一个实验“打印进程树”就卡了好久，实验要求编写可 …" />
+<meta name="keywords" content="Arch, Linux, Bugs">
+
+
+  <meta property="og:site_name" content="Menghuan1918's Blog"/>
+  <meta property="og:title" content="在Arch Linux下编译32位C程序"/>
+  <meta property="og:description" content="最近在跟着学习南京大学蒋老师的(操作系统课程)[https://jyywiki.cn/OS/2024/]，虽然第一个实验“打印进程树”就卡了好久，实验要求编写可 …"/>
+  <meta property="og:locale" content="zh_CN"/>
+  <meta property="og:url" content="https://blog.menghuan1918.com/Gcc_And_CUDA_Version.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2024-03-03 00:00:00+08:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="https://blog.menghuan1918.com/author/menghuan1918.html">
+  <meta property="article:section" content="Linux"/>
+  <meta property="article:tag" content="Arch"/>
+  <meta property="article:tag" content="Linux"/>
+  <meta property="article:tag" content="Bugs"/>
+  <meta property="og:image" content="https://blog.menghuan1918.com/images/profile.png">
+
+  <title>Menghuan1918's Blog &ndash; 在Arch Linux下编译32位C程序</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="https://blog.menghuan1918.com/">
+      <img src="https://blog.menghuan1918.com/images/profile.png" alt="Menghuan1918's Blog" title="Menghuan1918's Blog">
+    </a>
+
+    <h1>
+      <a href="https://blog.menghuan1918.com/">Menghuan1918's Blog</a>
+    </h1>
+
+
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="https://blog.menghuan1918.com/pages/guan-yu.html#guan-yu">
+                关于
+              </a>
+            </li>
+
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-github"
+           href="https://github.com/Menghuan1918"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-envelope"
+rel="me"           href="mailto:menghuan@menghuan1918.com"
+           target="_blank">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="https://blog.menghuan1918.com/">主页</a>
+
+
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="Gcc_And_CUDA_Version">在Arch&nbsp;Linux下编译32位C程序</h1>
+    <p>
+      在 日 03 三月 2024 发布于 <a href="https://blog.menghuan1918.com/category/linux.html">Linux</a> 分类
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>最近在跟着学习南京大学蒋老师的(操作系统课程)[https://jyywiki.cn/<span class="caps">OS</span>/2024/]，<del>虽然第一个实验“打印进程树”就卡了好久</del>，实验要求<code>编写可移植的代码</code>，这儿就是同时有32-bit 和 64-bit&nbsp;的版本，因此开始愉快地安装库-&gt;编译。</p>
+<h1>安装相应的包</h1>
+<p>默认情况下Arch是不启用Multilib仓库(内含32位软件和连接库)的，如果你还没有启用首先当然是<a href="https://wiki.archlinuxcn.org/wiki/%E5%AE%98%E6%96%B9%E4%BB%93%E5%BA%93#%E5%90%AF%E7%94%A8multilib">启用Multilib仓库</a>。</p>
+<p>随后更新软件包列表并安装相应的GCC32位库：</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>pacman<span class="w"> </span>-Syu
+sudo<span class="w"> </span>pacman<span class="w"> </span>-S<span class="w"> </span>lib32-gcc-libs
+</code></pre></div>
+
+<p>随后就可以愉快地使用</p>
+<div class="highlight"><pre><span></span><code>gcc<span class="w"> </span>-m32<span class="w"> </span>pstree.c<span class="w"> </span>-o<span class="w"> </span>pstree-32
+</code></pre></div>
+
+<p>编译32位软件了。</p>
+<p>当然这儿应该直接使用<code>Makefile</code>进行编译，不过问题这时候就来了，居然得到了报错如下:</p>
+<div class="highlight"><pre><span></span><code>gcc<span class="w"> </span>-m32<span class="w"> </span>-O1<span class="w"> </span>-std<span class="o">=</span>gnu11<span class="w"> </span>-ggdb<span class="w"> </span>-Wall<span class="w"> </span>-Werror<span class="w"> </span>-Wno-unused-result<span class="w"> </span>-Wno-unused-value<span class="w"> </span>-Wno-unused-variable<span class="w"> </span>./pstree.c<span class="w"> </span>-o<span class="w"> </span>pstree-32<span class="w"> </span>
+/usr/bin/ld:<span class="w"> </span>当搜索用于<span class="w"> </span>/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/libgcc.a<span class="w"> </span>时跳过不兼容的<span class="w"> </span>-lgcc<span class="w"> </span>
+/usr/bin/ld:<span class="w"> </span>找不到<span class="w"> </span>-lgcc:<span class="w"> </span>没有那个文件或目录<span class="w"> </span>
+/usr/bin/ld:<span class="w"> </span>当搜索用于<span class="w"> </span>/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/libgcc_s.so.1<span class="w"> </span>时跳过不兼容的<span class="w"> </span>libgcc_s.so.1<span class="w"> </span>
+/usr/bin/ld:<span class="w"> </span>当搜索用于<span class="w"> </span>/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/libgcc_s.so.1<span class="w"> </span>时跳过不兼容的<span class="w"> </span>libgcc_s.so.1<span class="w"> </span>
+/usr/bin/ld:<span class="w"> </span>当搜索用于<span class="w"> </span>/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/libgcc.a<span class="w"> </span>时跳过不兼容的<span class="w"> </span>-lgcc<span class="w"> </span>
+/usr/bin/ld:<span class="w"> </span>找不到<span class="w"> </span>-lgcc:<span class="w"> </span>没有那个文件或目录<span class="w"> </span>
+collect2:<span class="w"> </span>错误：ld<span class="w"> </span>返回<span class="w"> </span><span class="m">1</span><span class="w"> </span>
+make:<span class="w"> </span>***<span class="w"> </span><span class="o">[</span>../Makefile:20：pstree-32<span class="o">]</span><span class="w"> </span>错误<span class="w"> </span><span class="m">1</span>
+</code></pre></div>
+
+<p>然而使用<code>pacman -Qs gcc</code>查看得到<code>local/gcc 13.2.1-5</code>，本地的gcc版本明明是13.2.1，然而上文报错中搜寻的是12.3.0的库,使用<code>gcc -v</code>得到的版本号也是12.3.0。</p>
+<h1>解决问题</h1>
+<p>使用<code>which gcc</code>查看得到<code>/opt/cuda/bin/gcc</code>，再进一步查看发现这个文件链接到了<code>/usr/bin/gcc-12</code>。</p>
+<p>再使用<code>pacman -Qi gcc12</code>查看gcc12的关系，果然看到cuda依赖于这个包，所以上文的报错是因为cuda还没支持gcc13，但是arch官方库中的gcc已经是13.x版本了。</p>
+<p>因此解决方案也很简单，将Makefile中的所有<code>gcc</code>关键词换为<code>/bin/gcc</code>，就会使用(没安装cuda包下)默认的gcc版本了：</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>/bin/gcc<span class="w"> </span>-v
+使用内建<span class="w"> </span>specs。
+<span class="nv">COLLECT_GCC</span><span class="o">=</span>/bin/gcc
+<span class="nv">COLLECT_LTO_WRAPPER</span><span class="o">=</span>/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
+目标：x86_64-pc-linux-gnu
+配置为：/build/gcc/src/gcc/configure<span class="w"> </span>--enable-languages<span class="o">=</span>ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++<span class="w"> </span>--enable-bootstrap<span class="w"> </span>--prefix<span class="o">=</span>/usr<span class="w"> </span>--libdir<span class="o">=</span>/usr/lib<span class="w"> </span>--libexecdir<span class="o">=</span>/usr/lib<span class="w"> </span>--mandir<span class="o">=</span>/usr/share/man<span class="w"> </span>--infodir<span class="o">=</span>/usr/share/info<span class="w"> </span>--with-bugurl<span class="o">=</span>https://bugs.archlinux.org/<span class="w"> </span>--with-build-config<span class="o">=</span>bootstrap-lto<span class="w"> </span>--with-linker-hash-style<span class="o">=</span>gnu<span class="w"> </span>--with-system-zlib<span class="w"> </span>--enable-__cxa_atexit<span class="w"> </span>--enable-cet<span class="o">=</span>auto<span class="w"> </span>--enable-checking<span class="o">=</span>release<span class="w"> </span>--enable-clocale<span class="o">=</span>gnu<span class="w"> </span>--enable-default-pie<span class="w"> </span>--enable-default-ssp<span class="w"> </span>--enable-gnu-indirect-function<span class="w"> </span>--enable-gnu-unique-object<span class="w"> </span>--enable-libstdcxx-backtrace<span class="w"> </span>--enable-link-serialization<span class="o">=</span><span class="m">1</span><span class="w"> </span>--enable-linker-build-id<span class="w"> </span>--enable-lto<span class="w"> </span>--enable-multilib<span class="w"> </span>--enable-plugin<span class="w"> </span>--enable-shared<span class="w"> </span>--enable-threads<span class="o">=</span>posix<span class="w"> </span>--disable-libssp<span class="w"> </span>--disable-libstdcxx-pch<span class="w"> </span>--disable-werror
+线程模型：posix
+支持的<span class="w"> </span>LTO<span class="w"> </span>压缩算法：zlib<span class="w"> </span>zstd
+gcc<span class="w"> </span>版本<span class="w"> </span><span class="m">13</span>.2.1<span class="w"> </span><span class="m">20230801</span><span class="w"> </span><span class="o">(</span>GCC<span class="o">)</span>
+</code></pre></div>
+
+<p><del>当然你也可以直接删除<code>cuda</code>包，重启后gcc也会变回gcc13了</del></p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://blog.menghuan1918.com/tag/arch.html">Arch</a>
+      <a href="https://blog.menghuan1918.com/tag/linux.html">Linux</a>
+      <a href="https://blog.menghuan1918.com/tag/bugs.html">Bugs</a>
+    </p>
+  </div>
+
+
+
+
+
+
+</article>
+
+<footer>
+<p>
+  &copy; 2024  - 除非另有声明，本博客所有文章采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_CN" target="_blank">知识共享署名-非商业性使用-相同方式共享4.0协议 进行许可</a>
+</p>
+<p>
+本站由<a href="http://getpelican.com" target="_blank">Pelican</a>驱动，并使用<a href="http://bit.ly/flex-pelican" target="_blank">Flex</a>主题
+  <span class="footer-separator">|</span>
+  切换到 <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> 主题
+  <script id="dark-theme-script"
+          src="https://blog.menghuan1918.com/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Menghuan1918's Blog ",
+  "url" : "https://blog.menghuan1918.com",
+  "image": "https://blog.menghuan1918.com/images/profile.png",
+  "description": "个人博客，记录学习和生活"
+}
+</script>
+</body>
+</html>
