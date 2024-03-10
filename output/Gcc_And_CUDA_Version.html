@@ -54,13 +54,13 @@
 
 
   <meta property="og:site_name" content="Menghuan1918's Blog"/>
-  <meta property="og:title" content="在Arch Linux下编译32位C程序"/>
+  <meta property="og:title" content="在Arch Linux下编译32位C程序出错"/>
   <meta property="og:description" content="最近在跟着学习南京大学蒋老师的操作系统课程，虽然第一个实验“打印进程树”就卡了好久，实验要求编写可移植的代码 …"/>
   <meta property="og:locale" content="zh_CN"/>
   <meta property="og:url" content="https://blog.menghuan1918.com/Gcc_And_CUDA_Version.html"/>
   <meta property="og:type" content="article"/>
   <meta property="article:published_time" content="2024-03-03 00:00:00+08:00"/>
-  <meta property="article:modified_time" content=""/>
+  <meta property="article:modified_time" content="2024-03-10 00:00:00+08:00"/>
   <meta property="article:author" content="https://blog.menghuan1918.com/author/menghuan1918.html">
   <meta property="article:section" content="Linux"/>
   <meta property="article:tag" content="Arch"/>
@@ -68,7 +68,7 @@
   <meta property="article:tag" content="Bugs"/>
   <meta property="og:image" content="https://blog.menghuan1918.com/images/profile.png">
 
-  <title>Menghuan1918's Blog &ndash; 在Arch Linux下编译32位C程序</title>
+  <title>Menghuan1918's Blog &ndash; 在Arch Linux下编译32位C程序出错</title>
 
 
 </head>
@@ -97,6 +97,9 @@
               </a>
             </li>
 
+          <li>
+            <a target="_self" href="https://github.com/Menghuan1918/WebPage" >网站源代码</a>
+          </li>
       </ul>
     </nav>
 
@@ -131,7 +134,7 @@ rel="me"           href="mailto:menghuan@menghuan1918.com"
 <article class="single">
   <header>
       
-    <h1 id="Gcc_And_CUDA_Version">在Arch&nbsp;Linux下编译32位C程序</h1>
+    <h1 id="Gcc_And_CUDA_Version">在Arch&nbsp;Linux下编译32位C程序出错</h1>
     <p>
       在 日 03 三月 2024 发布于 <a href="https://blog.menghuan1918.com/category/linux.html">Linux</a> 分类
 
@@ -182,7 +185,10 @@ make:<span class="w"> </span>***<span class="w"> </span><span class="o">[</span>
 gcc<span class="w"> </span>版本<span class="w"> </span><span class="m">13</span>.2.1<span class="w"> </span><span class="m">20230801</span><span class="w"> </span><span class="o">(</span>GCC<span class="o">)</span>
 </code></pre></div>
 
-<p><del>当然你也可以直接删除<code>cuda</code>包，重启后gcc也会变回gcc13了</del></p>
+<p><del>你也可以直接删除<code>cuda</code>包，重启后gcc也会变回gcc13了</del>，当然，如果你没有安装<code>cuda</code>包也不会出现这个问题了(或者cuda支持gcc13也不会有这个问题了)。</p>
+<h1>其他</h1>
+<p>然后直接使用make编译就能正常使用了～</p>
+<p><img alt="make编译后并运行的样子" src="images/2/1.png"></p>
 <script src="https://giscus.app/client.js"
         data-repo="Menghuan1918/WebPage"
         data-repo-id="R_kgDOLcYFwA"

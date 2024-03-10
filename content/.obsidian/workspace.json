@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7f6799fe8315f3e5",
@@ -147,8 +146,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fc6bb8bb4fce9c61",
+  "active": "8a74f3352b2b27ef",
   "lastOpenFiles": [
+    "images/profile.png.done",
+    "images/profile.png.tmp",
+    "images/profile.png~",
+    "images/2/1.png.done",
+    "images/2/1.png.tmp",
+    "images/2/1.png~",
+    "images/2/1.png",
+    "GCC_CUDA_Version.md",
+    "images/2",
+    "未命名",
+    "images/屏幕截图_20240310_133639.png",
     "Start_Web.md",
     "Gcc_CUDA_Version.md",
     "images/profile.png",

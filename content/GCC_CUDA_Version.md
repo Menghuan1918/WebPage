@@ -1,5 +1,6 @@
 Date: 2024-03-03
-Title: 在Arch Linux下编译32位C程序
+Modified: 2024-03-10
+Title: 在Arch Linux下编译32位C程序出错
 Tags: Arch, Linux, Bugs
 Slug: Gcc_And_CUDA_Version
 category: Linux
@@ -58,7 +59,12 @@ COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
 gcc 版本 13.2.1 20230801 (GCC)
 ```
 
-~~当然你也可以直接删除`cuda`包，重启后gcc也会变回gcc13了~~
+~~你也可以直接删除`cuda`包，重启后gcc也会变回gcc13了~~，当然，如果你没有安装`cuda`包也不会出现这个问题了(或者cuda支持gcc13也不会有这个问题了)。
+
+# 其他
+然后直接使用make编译就能正常使用了～
+
+![make编译后并运行的样子](images/2/1.png)
 
 <script src="https://giscus.app/client.js"
         data-repo="Menghuan1918/WebPage"
