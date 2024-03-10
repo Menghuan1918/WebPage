@@ -91,3 +91,19 @@ MARKDOWN = {
 第一篇文章不出意外地是记录怎么建立这个站点的文档🤣
 
 不过怎么说也在2.29号这个四年一遇的日子(~~虽然并不准确！~~)配置好了发出来了´͈ ᵕ \`͈
+
+<script src="https://giscus.app/client.js"
+        data-repo="Menghuan1918/WebPage"
+        data-repo-id="R_kgDOLcYFwA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLcYFwM4Cdwpr"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

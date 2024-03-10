@@ -49,13 +49,13 @@
  
 
 <meta name="author" content="menghuan1918" />
-<meta name="description" content="最近在跟着学习南京大学蒋老师的(操作系统课程)[https://jyywiki.cn/OS/2024/]，虽然第一个实验“打印进程树”就卡了好久，实验要求编写可 …" />
+<meta name="description" content="最近在跟着学习南京大学蒋老师的操作系统课程，虽然第一个实验“打印进程树”就卡了好久，实验要求编写可移植的代码 …" />
 <meta name="keywords" content="Arch, Linux, Bugs">
 
 
   <meta property="og:site_name" content="Menghuan1918's Blog"/>
   <meta property="og:title" content="在Arch Linux下编译32位C程序"/>
-  <meta property="og:description" content="最近在跟着学习南京大学蒋老师的(操作系统课程)[https://jyywiki.cn/OS/2024/]，虽然第一个实验“打印进程树”就卡了好久，实验要求编写可 …"/>
+  <meta property="og:description" content="最近在跟着学习南京大学蒋老师的操作系统课程，虽然第一个实验“打印进程树”就卡了好久，实验要求编写可移植的代码 …"/>
   <meta property="og:locale" content="zh_CN"/>
   <meta property="og:url" content="https://blog.menghuan1918.com/Gcc_And_CUDA_Version.html"/>
   <meta property="og:type" content="article"/>
@@ -140,7 +140,7 @@ rel="me"           href="mailto:menghuan@menghuan1918.com"
 
 
   <div>
-    <p>最近在跟着学习南京大学蒋老师的(操作系统课程)[https://jyywiki.cn/<span class="caps">OS</span>/2024/]，<del>虽然第一个实验“打印进程树”就卡了好久</del>，实验要求<code>编写可移植的代码</code>，这儿就是同时有32-bit 和 64-bit&nbsp;的版本，因此开始愉快地安装库-&gt;编译。</p>
+    <p>最近在跟着学习南京大学蒋老师的<a href="https://jyywiki.cn/OS/2024/">操作系统课程</a>，<del>虽然第一个实验“打印进程树”就卡了好久</del>，实验要求<code>编写可移植的代码</code>，这儿就是同时编译32-bit 和 64-bit&nbsp;的版本，因此开始愉快地安装库-&gt;编译。</p>
 <h1>安装相应的包</h1>
 <p>默认情况下Arch是不启用Multilib仓库(内含32位软件和连接库)的，如果你还没有启用首先当然是<a href="https://wiki.archlinuxcn.org/wiki/%E5%AE%98%E6%96%B9%E4%BB%93%E5%BA%93#%E5%90%AF%E7%94%A8multilib">启用Multilib仓库</a>。</p>
 <p>随后更新软件包列表并安装相应的GCC32位库：</p>
@@ -165,7 +165,8 @@ collect2:<span class="w"> </span>错误：ld<span class="w"> </span>返回<span 
 make:<span class="w"> </span>***<span class="w"> </span><span class="o">[</span>../Makefile:20：pstree-32<span class="o">]</span><span class="w"> </span>错误<span class="w"> </span><span class="m">1</span>
 </code></pre></div>
 
-<p>然而使用<code>pacman -Qs gcc</code>查看得到<code>local/gcc 13.2.1-5</code>，本地的gcc版本明明是13.2.1，然而上文报错中搜寻的是12.3.0的库,使用<code>gcc -v</code>得到的版本号也是12.3.0。</p>
+<p>然而使用<code>pacman -Qs gcc</code>查看得到<code>local/gcc 13.2.1-5</code>，本地的gcc版本明明是13.2.1，上文报错中搜寻的是12.3.0的库。</p>
+<p>但是在终端中使用<code>gcc -v</code>，得到的版本号也是12.3.0。</p>
 <h1>解决问题</h1>
 <p>使用<code>which gcc</code>查看得到<code>/opt/cuda/bin/gcc</code>，再进一步查看发现这个文件链接到了<code>/usr/bin/gcc-12</code>。</p>
 <p>再使用<code>pacman -Qi gcc12</code>查看gcc12的关系，果然看到cuda依赖于这个包，所以上文的报错是因为cuda还没支持gcc13，但是arch官方库中的gcc已经是13.x版本了。</p>
@@ -182,6 +183,21 @@ gcc<span class="w"> </span>版本<span class="w"> </span><span class="m">13</spa
 </code></pre></div>
 
 <p><del>当然你也可以直接删除<code>cuda</code>包，重启后gcc也会变回gcc13了</del></p>
+<script src="https://giscus.app/client.js"
+        data-repo="Menghuan1918/WebPage"
+        data-repo-id="R_kgDOLcYFwA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLcYFwM4Cdwpr"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
   </div>
   <div class="tag-cloud">
     <p>
