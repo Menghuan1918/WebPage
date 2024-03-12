@@ -79,9 +79,9 @@
       <img src="https://blog.menghuan1918.com/images/profile.png" alt="Menghuan1918's Blog" title="Menghuan1918's Blog">
     </a>
 
-    <h1>
+    <h2>
       <a href="https://blog.menghuan1918.com/">Menghuan1918's Blog</a>
-    </h1>
+    </h2>
 
 
 
@@ -142,10 +142,10 @@ rel="me"           href="mailto:menghuan@menghuan1918.com"
 
 
   <div>
-    <h1>环境</h1>
+    <h2>环境</h2>
 <p>在本地pelican生成静态网页使用的环境是Arch&nbsp;Linux，python的版本为3.11.4(在miniconda创建的虚拟环境中)。</p>
 <p>云端是阿里云香港的轻量应用服务器，Ubuntu&nbsp;22.04，由于是静态网页云端直接使用nginx部署了。</p>
-<h1>Pelican生成静态网页</h1>
+<h2>Pelican生成静态网页</h2>
 <p>首先创建一个新的conda虚拟环境(这里偷懒直接用的base环境， <del>反正平时也不用</del> )，再安装相应的包：</p>
 <p><code>python -m pip install "pelican[markdown]"</code></p>
 <p>随后使用<code>pelican-quickstart</code>生成一个配置文件。</p>
@@ -154,7 +154,7 @@ rel="me"           href="mailto:menghuan@menghuan1918.com"
 <blockquote>
 <p>注意，如果你使用火狐(Firefox)进行预览，你可能需要输入<code>http://localhost:8000</code>进行预览，否则某些图标不能正常加载。</p>
 </blockquote>
-<h1>配置Nginx</h1>
+<h2>配置Nginx</h2>
 <p>首先创建一个新的配置文件(当然你得先安装好了对吧)：</p>
 <p><code>toucch /etc/nginx/sites-available/menghuan.conf</code></p>
 <p>并将其链接到sites-enabled目录之下(假设你已经删除了sites-enabled下的默认文件)：</p>
@@ -178,8 +178,8 @@ rel="me"           href="mailto:menghuan@menghuan1918.com"
 </code></pre></div>
 
 <p><del>这里使用的证书是从Cloudflare白嫖的</del>，这里还踩了个坑，我使用的是apt安装nginx，其默认用户为“www-data”，没注意证书不能被其读取，<del>改了权限就好了。</del></p>
-<h1>其他</h1>
-<h2>写个Bash脚本方便更新</h2>
+<h2>其他</h2>
+<h3>写个Bash脚本方便更新</h3>
 <div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
 <span class="nb">source</span><span class="w"> </span>/home/menghuan/miniconda3/etc/profile.d/conda.sh
 conda<span class="w"> </span>activate<span class="w"> </span>base
@@ -190,7 +190,7 @@ rsync<span class="w"> </span>-avz<span class="w"> </span>--delete<span class="w"
 </code></pre></div>
 
 <p>默认情况下conda指令不能直接在bash脚本中执行，需要先导入。</p>
-<h2>处理<sub>~删除线</sub>~无法显示的问题</h2>
+<h3>处理<sub>~删除线</sub>~无法显示的问题</h3>
 <p>在配置文件pelicanconf.py中重新配置了Markdown扩展</p>
 <div class="highlight"><pre><span></span><code><span class="n">MARKDOWN</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;extension_configs&#39;</span><span class="p">:</span> <span class="p">{</span>
@@ -203,7 +203,7 @@ rsync<span class="w"> </span>-avz<span class="w"> </span>--delete<span class="w"
 <span class="p">}</span>
 </code></pre></div>
 
-<h1>杂谈</h1>
+<h2>杂谈</h2>
 <p>第一篇文章不出意外地是记录怎么建立这个站点的文档🤣</p>
 <p>不过怎么说也在2.29号这个四年一遇的日子(<del>虽然并不准确！</del>)配置好了发出来了´͈ ᵕ&nbsp;`͈</p>
 <script src="https://giscus.app/client.js"

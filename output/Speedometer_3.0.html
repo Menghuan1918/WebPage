@@ -48,17 +48,28 @@
 
  
 
-    <meta name="author" content="menghuan1918" />
-    <meta name="description" content="个人博客，记录学习和生活" />
+<meta name="author" content="menghuan1918" />
+<meta name="description" content="今天新的Speedometer 3.0 浏览器基准测试发布了，据称其能更好的反应浏览器的现代负载，那么就直接测一测看看吧 (电子斗蛐蛐 …" />
+<meta name="keywords" content="Arch, Linux, Windows, Software">
+
+
   <meta property="og:site_name" content="Menghuan1918's Blog"/>
-  <meta property="og:type" content="blog"/>
-  <meta property="og:title" content="Menghuan1918's Blog"/>
-  <meta property="og:description" content="个人博客，记录学习和生活"/>
+  <meta property="og:title" content="Speedometer 3.0分数测试(电子斗蛐蛐)"/>
+  <meta property="og:description" content="今天新的Speedometer 3.0 浏览器基准测试发布了，据称其能更好的反应浏览器的现代负载，那么就直接测一测看看吧 (电子斗蛐蛐 …"/>
   <meta property="og:locale" content="zh_CN"/>
-  <meta property="og:url" content="https://blog.menghuan1918.com"/>
+  <meta property="og:url" content="https://blog.menghuan1918.com/Speedometer_3.0.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2024-03-12 00:00:00+08:00"/>
+  <meta property="article:modified_time" content="2024-03-12 00:00:00+08:00"/>
+  <meta property="article:author" content="https://blog.menghuan1918.com/author/menghuan1918.html">
+  <meta property="article:section" content="Software"/>
+  <meta property="article:tag" content="Arch"/>
+  <meta property="article:tag" content="Linux"/>
+  <meta property="article:tag" content="Windows"/>
+  <meta property="article:tag" content="Software"/>
   <meta property="og:image" content="https://blog.menghuan1918.com/images/profile.png">
 
-  <title>Menghuan1918's Blog &ndash; Linux 标签</title>
+  <title>Menghuan1918's Blog &ndash; Speedometer 3.0分数测试(电子斗蛐蛐)</title>
 
 
 </head>
@@ -70,9 +81,9 @@
       <img src="https://blog.menghuan1918.com/images/profile.png" alt="Menghuan1918's Blog" title="Menghuan1918's Blog">
     </a>
 
-    <h1>
+    <h2>
       <a href="https://blog.menghuan1918.com/">Menghuan1918's Blog</a>
-    </h1>
+    </h2>
 
 
 
@@ -121,52 +132,134 @@ rel="me"           href="mailto:menghuan@menghuan1918.com"
 
 </nav>
 
-
-
-<article>
+<article class="single">
   <header>
-    <h2><a href="https://blog.menghuan1918.com/Speedometer_3.0.html#Speedometer_3.0">Speedometer&nbsp;3.0分数测试(电子斗蛐蛐)</a></h2>
+      
+    <h1 id="Speedometer_3.0">Speedometer&nbsp;3.0分数测试(电子斗蛐蛐)</h1>
     <p>
       在 二 12 三月 2024 发布于 <a href="https://blog.menghuan1918.com/category/software.html">Software</a> 分类
 
-          &#8226; 标签为
-              <a href="https://blog.menghuan1918.com/tag/arch.html">Arch</a>,              <a href="https://blog.menghuan1918.com/tag/linux.html">Linux</a>,              <a href="https://blog.menghuan1918.com/tag/windows.html">Windows</a>,              <a href="https://blog.menghuan1918.com/tag/software.html">Software</a>
     </p>
   </header>
+
+
   <div>
-      <div><p>今天新的<a href="https://browserbench.org/Speedometer3.0/">Speedometer 3.0</a> 浏览器基准测试发布了，据称其能更好的反应浏览器的现代负载，那么就直接测一测看看吧 <del>(电子斗蛐蛐 …</del></p></div>
-        <br>
-        <a class="btn"
-           href="https://blog.menghuan1918.com/Speedometer_3.0.html#Speedometer_3.0">
-          阅读全文
-        </a>
+    <p>今天新的<a href="https://browserbench.org/Speedometer3.0/">Speedometer 3.0</a> 浏览器基准测试发布了，据称其能更好的反应浏览器的现代负载，那么就直接测一测看看吧 <del>(电子斗蛐蛐)</del> !</p>
+<blockquote>
+<p>所有测试都是在隐私模式(防止插件干扰)下进行测试，测试平台笔记本Intel i7-11800H@4.600GHz，内存40GB@3200Mhz，安卓为小米13，苹果为ipad pro&nbsp;2021</p>
+</blockquote>
+<h2>省流版本</h2>
+<p>同一硬件下<font color="#ffff00">Chrome</font>不出意外地拿下最高分，<font color="#c00000">Firefox</font>紧随其后，<font color="#0070c0">Edge</font>不出意外地以<strong>绝对性优势</strong>拿下第一名(倒数)&nbsp;:)。</p>
+<p>(估计这得感谢巨硬去年持续往Edge堆广告等等垃圾玩意儿)</p>
+<h3>PC端</h3>
+<p>PC端图片均为左Chrome,右上Firefox,右下Edge。</p>
+<h4>Arch Linux (Kernel&nbsp;6.7.9)</h4>
+<table>
+<thead>
+<tr>
+<th>Chrome 122.0.6261</th>
+<th>Firefox 123.0.1</th>
+<th>Edge 122.0.2365</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19.8 ± 0.83</td>
+<td>19.1 ± 0.56</td>
+<td>11.0 ± 0.19</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="arch" src="images/3/Arch.png"></p>
+<h4>Windows11</h4>
+<table>
+<thead>
+<tr>
+<th>Chrome 122.0.6261</th>
+<th>Firefox 123.0.1</th>
+<th>Edge 122.0.2365</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18.9 ± 0.76</td>
+<td>17.9 ± 0.20</td>
+<td>12.1 ± 0.22</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="win" src="images/3/Win.png"></p>
+<h3>安卓</h3>
+<table>
+<thead>
+<tr>
+<th>Chrome Beta 123.0.6312</th>
+<th>Firefox 124.0b9</th>
+<th>Edge 122.0.2365</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7.93 ± 0.36</td>
+<td>7.42 ± 0.19</td>
+<td>5.91 ± 0.25</td>
+</tr>
+</tbody>
+</table>
+<p><del>可以看到Edge非常稳定地差！</del>
+从左到右依次为Firefox,Edge,Chrome。</p>
+<p><img alt="android" src="images/3/Android.png"></p>
+<h3>苹果</h3>
+<table>
+<thead>
+<tr>
+<th>Safari (ipadOS 17.4)</th>
+<th>Safari (ipadOS 17.3)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19.5 ± 0.99</td>
+<td>10.9± 0.32</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="apple" src="images/3/IPADOS.png"></p>
+<h2>其他</h2>
+<p>ipad上大家用的内核都一样的情况下，Edge也依然一<strong>寄</strong>绝尘荣获倒数第一(果然就是垃圾东西塞多了是吧)🥰</p>
+<p>(如下图，左Edge,中Chrome,右Firefox)
+<img alt="ios_edge" src="images/3/ipados_edge.png"></p>
+<script src="https://giscus.app/client.js"
+        data-repo="Menghuan1918/WebPage"
+        data-repo-id="R_kgDOLcYFwA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLcYFwM4Cdwpr"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
   </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="https://blog.menghuan1918.com/Gcc_And_CUDA_Version.html#Gcc_And_CUDA_Version">在Arch&nbsp;Linux下编译32位C程序出错</a></h2>
+  <div class="tag-cloud">
     <p>
-      在 日 03 三月 2024 发布于 <a href="https://blog.menghuan1918.com/category/linux.html">Linux</a> 分类
-
-          &#8226; 标签为
-              <a href="https://blog.menghuan1918.com/tag/arch.html">Arch</a>,              <a href="https://blog.menghuan1918.com/tag/linux.html">Linux</a>,              <a href="https://blog.menghuan1918.com/tag/bugs.html">Bugs</a>
+      <a href="https://blog.menghuan1918.com/tag/arch.html">Arch</a>
+      <a href="https://blog.menghuan1918.com/tag/linux.html">Linux</a>
+      <a href="https://blog.menghuan1918.com/tag/windows.html">Windows</a>
+      <a href="https://blog.menghuan1918.com/tag/software.html">Software</a>
     </p>
-  </header>
-  <div>
-      <div><p>最近在跟着学习南京大学蒋老师的<a href="https://jyywiki.cn/OS/2024/">操作系统课程</a>，<del>虽然第一个实验“打印进程树”就卡了好久</del>，实验要求<code>编写可移植的代码 …</code></p></div>
-        <br>
-        <a class="btn"
-           href="https://blog.menghuan1918.com/Gcc_And_CUDA_Version.html#Gcc_And_CUDA_Version">
-          阅读全文
-        </a>
   </div>
+
+
+
+
+
+
 </article>
-
-  <div class="pagination">
-  </div>
-
-
 
 <footer>
 <p>

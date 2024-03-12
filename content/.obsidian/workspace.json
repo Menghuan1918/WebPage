@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GCC_CUDA_Version.md",
+                "file": "Speedometer_3.0.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GCC_CUDA_Version.md",
+                "file": "Speedometer_3.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GCC_CUDA_Version.md",
+                "file": "Speedometer_3.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GCC_CUDA_Version.md"
+                "file": "Speedometer_3.0.md"
               }
             }
           }
@@ -148,6 +148,15 @@
   },
   "active": "8a74f3352b2b27ef",
   "lastOpenFiles": [
+    "Start_Web.md",
+    "images/3/ipados_edge.png",
+    "images/3/IPADOS.png",
+    "images/3/Android.png",
+    "images/3/Arch.png",
+    "Speedometer_3.0.md",
+    "images/3",
+    "images/3/Win.png",
+    "GCC_CUDA_Version.md",
     "images/profile.png.done",
     "images/profile.png.tmp",
     "images/profile.png~",
@@ -155,13 +164,10 @@
     "images/2/1.png.tmp",
     "images/2/1.png~",
     "images/2/1.png",
-    "GCC_CUDA_Version.md",
     "images/2",
-    "未命名",
     "images/屏幕截图_20240310_133639.png",
-    "Start_Web.md",
     "Gcc_CUDA_Version.md",
-    "images/profile.png",
+    "images/3/profile.png",
     "pages/关于.md"
   ]
 }
