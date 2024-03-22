@@ -7,4 +7,9 @@ export default navbar([
     icon: "pen-to-square",
     link: "/posts/",
   },
+  {
+    text: "关于",
+    icon: "info",
+    link: "/intro",
+  }
 ]);
