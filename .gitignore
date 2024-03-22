@@ -1,7 +1,3 @@
-BingSiteAuth.xml
-google3940d9bcd31ab1cc.html
-sitemap.xml
 __pycache__/
-Flex/
-i18n_subsites/
-.obsidian/
+node_modules
+.temp/

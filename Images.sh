@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TARGET_DIR=./content/images
+TARGET_DIR=./src/images
 
 if [ -z "$TARGET_DIR" ]; then
   echo "Usage: $0 <directory>"
