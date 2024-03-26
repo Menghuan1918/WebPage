@@ -1,5 +1,0 @@
-
-User-agent:*
-Disallow:
-
-Sitemap: https://blog.menghuan1918.com/sitemap.xml
