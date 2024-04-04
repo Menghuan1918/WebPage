@@ -12,13 +12,13 @@ tags:
 copyright: CC BY-NC-ND 4.0
 ---
 
-众所周知，在windows上配置一些软件(例如GCC，openGL，make...)是相当困难繁琐的，不过好在也不是没有解决方法。比如[MSYS2](https://www.msys2.org/)，它提供了一个类Unix的构建环境，可以像在linux上一样安装软件包(不过是windows平台的)。
+众所周知，在windows上配置一些软件(例如GCC，openGL，make...)是相当困难繁琐的，不过好在也不是没有解决方法。比如[MSYS2](https://www.msys2.org/)，它提供了一个类Unix的构建环境，可以像在linux上一样安装软件包，而不需要你一个一个手动设置环境变量等等工作(不过是windows平台的)。
 
 这次就使用MSYS2进行配置GCC/make/openGL的开发环境。
 
 ## 安装并设置环境变量
 
-在官网上下载安装运行程序，这儿我直接按照其默认的安装路径进行安装(即C:\msys64)。MSYS2默认提供了很多环境进行选择，这儿我选择使用mingw64环境。为了能在PowerShell中使用(而不是其自带的mintty)以方便远程链接，将MSYS以及MINGW64的执行文件添加到环境变量中。
+在官网上下载安装运行程序，直接按照其默认的安装路径进行安装(即C:\msys64)。MSYS2默认提供了很多环境进行选择，这儿我选择使用mingw64环境。为了能在PowerShell中使用(而不是其自带的mintty终端)以方便远程链接，将MSYS以及MINGW64的执行文件添加到环境变量中。
 
 选择：设置->系统->关于->高级系统设置->环境变量->PATH->添加
 
@@ -45,7 +45,7 @@ pacman -Rs xxx
 
 ## 安装GCC/make/openGL
 
-随后就是轻松愉快的包安装环节了，没有更多的环境变量需要配置了！！！
+随后就是轻松愉快的包安装环节了，没有更多的环境变量需要配置，只需要执行指令就完成安装了~
 
 ```bash
 pacman -S mingw-w64-x86_64-gcc
@@ -56,6 +56,14 @@ pacman -S mingw-w64-x86_64-freeglut
 随后验证一下是不是安装好了：
 
 ![当然也可以编译个hello world看看](../images/6/gcc_v.png)
+
+## 安装Lex和Yacc
+
+这两个工具的GUN替代名字是flex和bison，安装：
+
+```bash
+pacman -S flex bison
+```
 
 ## 特别的:关于openGL
 
