@@ -1,7 +1,7 @@
 ---
 title: 利用MSYS2在windows上配置C/C++/openGL开发环境
 date: 2024-04-03
-updated: 2024-04-03
+updated: 2024-04-05
 categories: Software
 tags:
   - Windows
@@ -14,7 +14,7 @@ copyright: CC BY-NC-ND 4.0
 
 众所周知，在windows上配置一些软件(例如GCC，openGL，make...)是相当困难繁琐的，不过好在也不是没有解决方法。比如[MSYS2](https://www.msys2.org/)，它提供了一个类Unix的构建环境，可以像在linux上一样安装软件包，而不需要你一个一个手动设置环境变量等等工作(不过是windows平台的)。
 
-这次就使用MSYS2进行配置GCC/make/openGL的开发环境。
+这次就使用MSYS2进行配置GCC/make/openGL以及flex/bison的开发环境。
 
 ## 安装并设置环境变量
 
@@ -69,7 +69,7 @@ pacman -S flex bison
 
 在linxu上编译openGL时需要添加`-lglut -lGL`链接选项，但是在Windows上有所不同，你需要换成`-lfreeglut -lopengl32`。修改Makefile如下：
 
-```make
+```Makefile
 CC=gcc
 CFLAGS=-Wall -Werror
 LDFLAGS=-lfreeglut -lopengl32

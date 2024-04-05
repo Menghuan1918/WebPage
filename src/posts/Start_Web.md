@@ -2,8 +2,7 @@
 lang: zh-CN
 title: 使用pelican以及nginx建立个人博客
 date: 2024-02-29
-category:
-  - Website
+category: Website
 tag:
   - nginx
 ---
