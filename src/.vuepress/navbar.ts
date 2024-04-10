@@ -10,7 +10,7 @@ export default navbar([
   {
     text:"文件",
     icon:"cloud",
-    link: "AlistStore/",
+    link: "https://blog.menghuan1918.com/AlistStore",
   },
   {
     text: "关于",

@@ -12,7 +12,7 @@ export default sidebar({
     {
       text:"文件",
       icon:"cloud",
-      link: "AlistStore/",
+      link: "https://blog.menghuan1918.com/AlistStore/",
     },
     {
       text: "关于我",

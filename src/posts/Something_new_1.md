@@ -15,6 +15,8 @@ copyright: CC BY-NC-ND 4.0
 
 由于我有[两台电脑](https://blog.menghuan1918.com/intro.html)，虽然日常都是通过tailscale穿透后ssh连接，但是总还是偶有需要远程操控的地方。很显然RustDesk提供的服务器就亚洲而言延迟有点高了，因此自己动手部署一个中续服务器。依然在是前文提到的阿里云香港轻量应用服务器，Ubuntu 22.04上部署。
 
+<!-- more -->
+
 ### 安装Docker
 
 虽然可以选择官方源进行安装.....但是当时用了阿里云镜像进行安装docker(埋坑了):

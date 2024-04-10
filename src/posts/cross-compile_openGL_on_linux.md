@@ -1,7 +1,7 @@
 ---
 title: 在Linux上交叉编译出Windows可执行程序
 date: 2024-04-05
-updated: 2024-04-05
+updated: 2024-04-10
 categories: Linux
 tags:
   - Windows
@@ -12,7 +12,9 @@ tags:
 copyright: CC BY-NC-ND 4.0
 ---
 
-借助MinGW-w64，在Linux上也可以交叉编译出Windows可执行程序。前文提到在Windows上使用MSYS2配置openGL编译环境，虽然没出现什么问题，但是校园网不能支撑2k级别的远程桌面(1080P顶天了)，放在轻薄本的屏幕上看起来太不自在了，于是便有了本文。
+借助MinGW-w64，在Linux上也可以交叉编译出Windows可执行程序。前文提到在Windows上使用MSYS2配置openGL编译环境，虽然没出现什么问题，但是校园网不能支撑2k级别的远程桌面(1080P顶天了)，放在轻薄本的屏幕上看起来太不自在了。然而限于课程要求，需要编译出exe程序，于是便有了本文。
+
+<!-- more -->
 
 ## 安装mingw-w64-gcc
 
@@ -33,7 +35,7 @@ sudo apt install mingw-w64
 ```
 :::
 
-完成这一步之后就完了，就已经可以使用`x86_64-w64-mingw32-gcc`进行交叉编译Windows程序了。不过考虑到我还需要使用GLUT，于是接着配置FreeGLUT。
+完成这一步之后就完了，就已经可以使用`x86_64-w64-mingw32-gcc`代替`gcc`进行交叉编译C程序，此时编译出来的已经是Windows程序了。不过考虑到我还需要使用GLUT，于是接着配置FreeGLUT。
 
 ## 配置mingw-w64-freeglut
 

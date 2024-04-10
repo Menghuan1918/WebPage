@@ -16,6 +16,8 @@ copyright: CC BY-NC-ND 4.0
 
  > 所有测试都是在隐私模式(防止插件干扰)下进行测试，测试平台笔记本Intel i7-11800H@4.600GHz，内存40GB@3200Mhz，安卓为小米13，苹果为ipad pro 2021
 
+<!-- more -->
+
 ## 省流版本
 
 同一硬件下**Chrome**不出意外地拿下最高分，<font color="#c00000">Firefox</font>紧随其后，<font color="#0070c0">Edge</font>不出意外地以**绝对性优势**拿下第一名(倒数) :)。
