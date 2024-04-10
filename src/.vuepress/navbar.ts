@@ -8,6 +8,11 @@ export default navbar([
     link: "/posts/",
   },
   {
+    text:"文件",
+    icon:"cloud",
+    link: "AlistStore/",
+  },
+  {
     text: "关于",
     icon: "info",
     link: "/intro",

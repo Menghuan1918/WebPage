@@ -10,6 +10,11 @@ export default sidebar({
       children: "structure",
     },
     {
+      text:"文件",
+      icon:"cloud",
+      link: "AlistStore/",
+    },
+    {
       text: "关于我",
       icon: "person-chalkboard",
       link: "intro",
