@@ -16,6 +16,8 @@ copyright: CC BY-NC-ND 4.0
 - 优化网站生成流程
 - 使用tailscale加快SSH速度
 
+<!-- more -->
+
 ## 部署Alist
 
 不出意外地是用Docker部署(貌似也不准确，因为实际上是docker compose部署)，按照其[手册](https://alist.nn.ci/guide/install/docker.html)设置docker-compose.yml：

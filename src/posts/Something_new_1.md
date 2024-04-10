@@ -11,11 +11,16 @@ tags:
 copyright: CC BY-NC-ND 4.0
 ---
 
+本文内容：
+- 使用Docker部署RustDesk中续
+- 解决阿里云上docker-compose的依赖版本问题
+- 切换网站框架为为vuepress
+
+<!-- more -->
+
 ## 在服务器上使用Docker部署RustDesk中续
 
 由于我有[两台电脑](https://blog.menghuan1918.com/intro.html)，虽然日常都是通过tailscale穿透后ssh连接，但是总还是偶有需要远程操控的地方。很显然RustDesk提供的服务器就亚洲而言延迟有点高了，因此自己动手部署一个中续服务器。依然在是前文提到的阿里云香港轻量应用服务器，Ubuntu 22.04上部署。
-
-<!-- more -->
 
 ### 安装Docker
 
