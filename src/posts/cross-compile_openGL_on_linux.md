@@ -60,13 +60,13 @@ apt储存库中当然没有这个，因此理论上你得自己编译。不过�
 
 ## 编译以及运行
 
-那么整个流程就变成了：使用`mingw-w64-gcc`进行交叉编译，再使用`wine`运行编译的结果。
+那么整个流程就变成了：使用`mingw-w64-g++`进行交叉编译，再使用`wine`运行编译的结果。
 
 配置Make文件如下
 
 ```Makefile
-CC = x86_64-w64-mingw32-gcc
-SRC = Exercise1.c
+CC = x86_64-w64-mingw32-g++
+SRC = Exercise1.cpp
 OUT = App.exe
 
 all:

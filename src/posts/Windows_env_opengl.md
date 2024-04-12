@@ -72,11 +72,11 @@ pacman -S flex bison
 在linxu上编译openGL时需要添加`-lglut -lGL`链接选项，但是在Windows上有所不同，你需要换成`-lfreeglut -lopengl32`。修改Makefile如下：
 
 ```Makefile
-CC=gcc
+CC=g++
 CFLAGS=-Wall -Werror
 LDFLAGS=-lfreeglut -lopengl32
 TARGET=app
-SRC=test.c
+SRC=test.cpp
 
 all: $(TARGET)
 $(TARGET): $(SRC)
