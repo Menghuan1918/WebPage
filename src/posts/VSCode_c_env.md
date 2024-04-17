@@ -25,7 +25,7 @@ copyright: CC BY-NC-ND 4.0
 
 > 对于MSYS2包，可以在[这个网站](https://packages.msys2.org/queue)搜索
 
-::: code-tab#gcc
+::: code-tabs#gcc
 
 @tab Arch Linux
 
