@@ -49,7 +49,7 @@ sudo apt install clangd
 
 ```bash
 # 确保你已经配置了MSYS2
-sudo pacman -Syu
+pacman -Syu
 pacman -S mingw-w64-x86_64-gcc
 pacman -S mingw-w64-x86_64-clang-tools-extra
 pacman -S mingw-w64-x86_64-gdb
