@@ -35,12 +35,12 @@ copyright: CC BY-NC-ND 4.0
 ```bash
 pacman -Syu
 # 更新软件包源以及软件包
-pacman -Ss xxx
-# 搜索名为xxx的软件包
-pacman -S xxx
-# 安装名为xxx的软件包
-pacman -Rs xxx
-# 卸载软件包xxx以及其相关的依赖
+pacman -Ss ABc
+# 搜索名为Abc的软件包
+pacman -S Bca
+# 安装名为Bca的软件包
+pacman -Rs aaa
+# 卸载软件包aaa以及其相关的依赖
 ```
 
 ![就是Arch Linux同款包管理器啦](../images/6/pacman_Syu.png)
@@ -51,6 +51,8 @@ pacman -Rs xxx
 
 ```bash
 pacman -S mingw-w64-x86_64-gcc
+pacman -S mingw-w64-x86_64-gdb
+# 只需要gcc的话到这一部就够了
 pacman -S make
 pacman -S mingw-w64-x86_64-freeglut
 ```
