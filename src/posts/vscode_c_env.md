@@ -13,7 +13,7 @@ copyright: CC BY-NC-ND 4.0
 
 这么多年的(插件)发展之后，实际上在VSCode中配置C/C++语言已经不是一件很困难的事情了，一般而言，所需要做的仅仅是安装`C/C++`插件，**理论**上其会自动检测编译器并生成响应的配置文件。
 
-当然这只是理论，一旦涉及到跨平台同步(例如自带的设置同步，或者共用一个文件夹)就麻烦起来了，因为Linux和Windows的设置并不通用。此外微软开发的`C/C++`插件还存在一些问题，例如只会显示错误(Error)不会显示警告(Warning)等等，不过好在VSCode的众多插件提供了解决方案，其即能跨平台同步设置又补足了之前的缺点，同时使用起来简单快捷。
+当然这只是理论，一旦涉及到跨平台同步(例如自带的设置同步，或者共用一个文件夹)就麻烦起来了，因为Linux和Windows的设置并不通用。此外微软开发的`C/C++`插件还存在一些问题，例如只会显示错误(Error)不会显示警告(Warning)等等，不过好在VSCode的众多插件提供了解决方案，其即能跨平台同步设置又补足了之前的缺点，同时在Windows和Linux下使用起来简单快捷。
 
 <!-- more -->
 
@@ -27,7 +27,7 @@ copyright: CC BY-NC-ND 4.0
 
 ::: code-tab#gcc
 
-@tag Arch Linux
+@tab Arch Linux
 
 ```bash
 sudo pacman -Syu
@@ -36,7 +36,7 @@ sudo pacman -S gdb
 sudo pacman -S clang
 ```
 
-@tag Ubuntu
+@tab Ubuntu
 
 ```bash
 sudo apt update
@@ -45,7 +45,7 @@ sudo apt install gdb
 sudo apt install clangd
 ```
 
-@tag Windows
+@tab Windows
 
 ```bash
 # 确保你已经配置了MSYS2
