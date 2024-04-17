@@ -1,7 +1,6 @@
 ---
 title: 折腾杂谈:Docker部署Rustdesk/切换网站框架
 date: 2024-03-23
-updated: 2024-03-23
 categories: Software
 tags:
   - Arch

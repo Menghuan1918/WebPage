@@ -1,7 +1,6 @@
 ---
 title: 强制对游戏应用FSR
 date: 2024-03-26
-updated: 2024-03-27
 categories: Linux
 tags:
   - Arch
