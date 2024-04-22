@@ -57,7 +57,7 @@ export default hopeTheme({
       // QQ: "https://example.com",
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
-      // Rss: "https://example.com",
+      Rss: "https://blog.menghuan1918.com/rss.xml",
       Steam: "https://steamcommunity.com/profiles/76561199019534980/",
       // Twitter: "https://example.com",
       // Wechat: "https://example.com",
@@ -87,7 +87,7 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
-
+    feed: true,
     // 在启用之前需要安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务器，在生产环境中请自行部署并使用自己的服务器！
     comment: {
