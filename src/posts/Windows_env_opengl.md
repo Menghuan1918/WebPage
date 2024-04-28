@@ -27,9 +27,9 @@ copyright: CC BY-NC-ND 4.0
 
 ![就这样](../images/6/Path.png)
 
-随后应该就能在PowerShell中使用MSYS64自带的包管理器pacman(~~吃豆人~~)了。基本操作可以参照[Arch Wiki的内容](https://wiki.archlinuxcn.org/wiki/Pacman#%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E5%8C%85)。
+随后应该就能在PowerShell中使用MSYS64自带的包管理器pacman(~~吃豆人~~)了。基本操作可以参照[Arch Wiki的内容](https://wiki.archlinuxcn.org/wiki/Pacman#%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E5%8C%85)。到此处MSYS2就算是**安装完成了**。
 
-例如一些基本操作：
+对于pacman包管理器的一些基本操作：
 
 ```bash
 pacman -Syu
