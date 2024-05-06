@@ -104,3 +104,10 @@ C:
 For Linux, you can directly open the programme you want to run in DOSBox without doing a manual mount! Just right click on the programme you want to open, select **Open with another application** and then select **DOSBox**.
 
 ![I didn't realise this until I looked at the official docs either...](../../images/10/Open_in_Linux.png)
+
+You can also use [this Github project](https://github.com/Menghuan1918/Useful-Tools) to interact with DOSBox in scripted form on Linux！Like showing in the [Vedio](https://blog.menghuan1918.com/AlistStore/DOSBox/dosbox.webm) below：
+
+<VidStack
+  src="https://blog.menghuan1918.com/AlistStore/d/opt/alist/data/store/opt/alist/data/store/DOSBox/dosbox.webm?sign=fJEv2gHHXV58X1CqJy2lHf9AMnW7ICVkxWyz1GWCEcc=:0"
+/>
+

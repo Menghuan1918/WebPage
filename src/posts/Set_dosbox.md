@@ -104,3 +104,10 @@ C:
 对于Linux，你可以直接打开要在DOSBox中运行的程序而无需进行手动挂载！只需要右键想要打开的程序，选择**使用其他应用打开**，再选择**DOSBox**即可。
 
 ![我也是看官网文档才发现的...](../images/10/Open_in_Linux.png)
+
+你也可以使用[这个项目](https://github.com/Menghuan1918/Useful-Tools)来脚本化运行DOS程序！其效果就像下面这个[视频](https://blog.menghuan1918.com/AlistStore/DOSBox/dosbox.webm)一样：
+
+<VidStack
+  src="https://blog.menghuan1918.com/AlistStore/d/opt/alist/data/store/opt/alist/data/store/DOSBox/dosbox.webm?sign=fJEv2gHHXV58X1CqJy2lHf9AMnW7ICVkxWyz1GWCEcc=:0"
+/>
+

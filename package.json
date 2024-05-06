@@ -15,6 +15,7 @@
     "@vuepress/plugin-feed": "2.0.0-rc.26",
     "flowchart.ts": "^3.0.0",
     "katex": "^0.16.9",
+    "vidstack": "1",
     "vue": "^3.4.16",
     "vuepress": "2.0.0-rc.8",
     "vuepress-plugin-comment2": "2.0.0-rc.30",
