@@ -70,3 +70,37 @@ Where `windowresolution` is followed by the value of the window size you want to
 Subsequent restart of DOSBox window size is mostly better.
 
 ![Like this](../../images/10/Big_windows.png)
+
+## Setting up automatic mounting
+Still with the configuration file mentioned above, scroll to the bottom and there is a part like：
+
+```conf
+[autoexec]
+# Lines in this section will be run at startup.
+# You can put your MOUNT lines here.
+```
+
+Just put the command you want it to execute automatically here. For example, if you want to mount a folder:
+
+:::tabs#Set_mount
+@tab Windows
+[autoexec]
+
+MOUNT C c:\masm
+
+C:
+
+@tab Linux
+[autoexec]
+
+MOUNT C ~/Code/masm
+
+C:
+:::
+
+![It's automatically mounted on startup](../../images/10/Mount_at_start.png)
+
+## For Linux...
+For Linux, you can directly open the programme you want to run in DOSBox without doing a manual mount! Just right click on the programme you want to open, select **Open with another application** and then select **DOSBox**.
+
+![I didn't realise this until I looked at the official docs either...](../../images/10/Open_in_Linux.png)

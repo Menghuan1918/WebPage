@@ -70,3 +70,37 @@ output=opengl
 随后再启动窗口大小就大多了。
 
 ![就像这样](../images/10/Big_windows.png)
+
+## 设置自动挂载
+依然是上方提到的配置文件，翻到最下方，有一个
+
+```conf
+[autoexec]
+# Lines in this section will be run at startup.
+# You can put your MOUNT lines here.
+```
+
+的部分，将你想让其自动执行的指令放在这儿即可。例如想要挂载文件夹：
+
+:::tabs#Set_mount
+@tab Windows
+[autoexec]
+
+MOUNT C c:\masm
+
+C:
+
+@tab Linux
+[autoexec]
+
+MOUNT C ~/Code/masm
+
+C:
+:::
+
+![启动就自动挂载好了](../images/10/Mount_at_start.png)
+
+## 对于Linux...
+对于Linux，你可以直接打开要在DOSBox中运行的程序而无需进行手动挂载！只需要右键想要打开的程序，选择**使用其他应用打开**，再选择**DOSBox**即可。
+
+![我也是看官网文档才发现的...](../images/10/Open_in_Linux.png)
