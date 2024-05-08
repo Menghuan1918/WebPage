@@ -16,6 +16,8 @@ copyright: CC BY-NC-ND 4.0
 
 <!-- more -->
 
+⚠️注意：同步≠备份！即使使用这个进行同步也需要做好充足的备份工作！
+
 ## 配置Self-hosted LiveSync
 这一部分参照[插件的文档](https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/setup_own_server_cn.md)，找一个**你当前用户有读写权限**的地方，以如下格式放置好文件：
 
@@ -67,8 +69,11 @@ machine-name.domain-alias.ts.net {
 
 ![此时就已经没有HTTP的警告了](../images/11/Https.png)
 
-这样建立起来的同步速度相当快，可以参考[这个视频](https://blog.menghuan1918.com/AlistStore/Obsidian%E5%90%8C%E6%AD%A5)
+这样建立起来的同步速度相当快，可以参考[这个视频](https://blog.menghuan1918.com/AlistStore/Obsidian%E5%90%8C%E6%AD%A5/speedtest.webm)
 
 <VidStack
   src="https://blog.menghuan1918.com/AlistStore/d/opt/alist/data/store/opt/alist/data/store/Obsidian%E5%90%8C%E6%AD%A5/speedtest.webm?sign=IHAOHO-UJexhnsjEkfhIXpLmdWAf8E8O_EV2M_ltswc=:0"
 />
+
+## 其他
+这个插件也是看到[有佬推荐才用的](https://linux.do/t/topic/65783)，试了几天，发现确实好用。
