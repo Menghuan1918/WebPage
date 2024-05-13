@@ -16,7 +16,8 @@ copyright: CC BY-NC-ND 4.0
 
 <!-- more -->
 
-⚠️注意：同步≠备份！即使使用这个进行同步也需要做好充足的备份工作！
+> [!warning]
+> 注意：同步≠备份！即使使用这个进行同步也需要做好充足的备份工作！
 
 ## 配置Self-hosted LiveSync
 这一部分参照[插件的文档](https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/setup_own_server_cn.md)，找一个**你当前用户有读写权限**的地方，以如下格式放置好文件：
@@ -29,6 +30,7 @@ obsidian-livesync
 
 随后`docker-compose up -d`启动容器。在此处我选择在我的树莓派上部署(你可以选择任意能运行Linux的设备)。部署完成后访问`http://raspberrypi:5984/_utils`，输入前面`docker-compose.yml`里设置好的账户密码，点击右上角创建一个数据库，我创建的数据库名字是`notes`。
 
+> [!tip]
 > 这儿‘raspberrypi’是我tailscale中分配的树莓派虚拟局域网ip对应的短域名，请替换为你部署的设备的ip
 
 ![当然这是已经同步过一次数据之后的截图了](../images/11/database.png)
