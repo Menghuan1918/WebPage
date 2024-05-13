@@ -1,6 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
@@ -10,7 +8,7 @@ export default hopeTheme({
     name: "Menghuan1918",
     url: "https://blog.menghuan1918.com",
   },
-
+  license: "CC BY-NC-SA 4.0",
   iconAssets: "fontawesome-with-brands",
 
   logo: "/favicon.ico",
@@ -19,14 +17,7 @@ export default hopeTheme({
 
   docsDir: "src",
 
-  // 导航栏
-  navbar,
-
-  // 侧边栏
-  sidebar,
-
   // 页脚
-  footer: "除非另有声明，本博客所有文章采用 知识共享署名-非商业性使用-相同方式共享4.0协议 进行许可",
   displayFooter: true,
 
   // 博客相关
@@ -101,7 +92,7 @@ export default hopeTheme({
 
 
     components: {
-      components: ["Badge", "VPCard","VidStack"],
+      components: ["Badge", "VPCard", "VidStack"],
     },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
@@ -231,4 +222,90 @@ export default hopeTheme({
     //   },
     // },
   },
+  locales: {
+    "/": {
+      navbar: [
+        "/",
+        {
+          text: "博文",
+          icon: "pen-to-square",
+          link: "/posts/",
+        },
+        {
+          text: "文件",
+          icon: "cloud",
+          link: "https://blog.menghuan1918.com/AlistStore",
+        },
+        {
+          text: "关于",
+          icon: "info",
+          link: "/intro",
+        }
+      ],
+      sidebar: {
+        "/": [
+          "",
+          {
+            text: "文章",
+            icon: "book",
+            prefix: "posts/",
+            children: "structure",
+          },
+          {
+            text: "文件",
+            icon: "cloud",
+            link: "https://blog.menghuan1918.com/AlistStore/",
+          },
+          {
+            text: "关于我",
+            icon: "person-chalkboard",
+            link: "intro",
+          },
+        ],
+      },
+      footer: "除非另有声明，本博客所有文章采用 知识共享署名-非商业性使用-相同方式共享4.0协议 进行许可",
+    },
+    "/en/": {
+      navbar: [
+        "/en/",
+        {
+          text: "Posts",
+          icon: "pen-to-square",
+          link: "/en/posts/",
+        },
+        {
+          text: "Files",
+          icon: "cloud",
+          link: "https://blog.menghuan1918.com/AlistStore",
+        },
+        {
+          text: "About",
+          icon: "info",
+          link: "/en/intro",
+        }
+      ],
+      sidebar: {
+        "/en/": [
+          "",
+          {
+            text: "Posts",
+            icon: "book",
+            prefix: "posts/",
+            children: "structure",
+          },
+          {
+            text: "Files",
+            icon: "cloud",
+            link: "https://blog.menghuan1918.com/AlistStore/",
+          },
+          {
+            text: "About me",
+            icon: "person-chalkboard",
+            link: "intro",
+          },
+        ],
+      },
+      footer: "Unless otherwise stated, all posts on this blog are licensed under CC BY-NC-SA 4.0 Licence.",
+    }
+  }
 });
