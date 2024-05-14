@@ -67,6 +67,19 @@ gcc 版本 13.2.1 20230801 (GCC)
 
 ~~你也可以直接删除`cuda`包，重启后gcc也会变回gcc13了~~，当然，如果你没有安装`cuda`包也不会出现这个问题了(或者cuda支持gcc13也不会有这个问题了)。
 
+> [!important]
+> 目前Arch的gcc包版本已经升级到了14了，但是CUDA依赖的版本依然是gcc13，你可以使用`gcc-13`来调用gcc13。
+
+> [!tip]
+> 如更新时遇到：
+> ```
+> error: failed to commit transaction (conflicting files)
+> gcc13: /usr/lib/gcc/x86_64-pc-linux-gnu/lib/libgcc_s.so exists in filesystem (owned by gcc12)
+> gcc13: /usr/lib/gcc/x86_64-pc-linux-gnu/lib/libgcc_s.so.1 exists in filesystem (owned by gcc12)
+> Errors occurred, no packages were upgraded.
+> ```
+> 卸载gcc12后再装即可。
+
 ## 其他
 然后直接使用make编译就能正常使用了～
 
