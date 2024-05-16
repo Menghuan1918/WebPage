@@ -237,6 +237,11 @@ export default hopeTheme({
           link: "https://blog.menghuan1918.com/AlistStore",
         },
         {
+          text: "状态",
+          icon: "chart-column",
+          link: "https://status.menghuan1918.com/status/menghuan1918",
+        },
+        {
           text: "关于",
           icon: "info",
           link: "/intro",
@@ -255,6 +260,11 @@ export default hopeTheme({
             text: "文件",
             icon: "cloud",
             link: "https://blog.menghuan1918.com/AlistStore/",
+          },
+          {
+            text: "状态",
+            icon: "chart-column",
+            link: "https://status.menghuan1918.com/status/menghuan1918",
           },
           {
             text: "关于我",
@@ -279,6 +289,11 @@ export default hopeTheme({
           link: "https://blog.menghuan1918.com/AlistStore",
         },
         {
+          text: "Status",
+          icon: "chart-column",
+          link: "https://status.menghuan1918.com/status/menghuan1918",
+        },
+        {
           text: "About",
           icon: "info",
           link: "/en/intro",
@@ -297,6 +312,11 @@ export default hopeTheme({
             text: "Files",
             icon: "cloud",
             link: "https://blog.menghuan1918.com/AlistStore/",
+          },
+          {
+            text: "Status",
+            icon: "chart-column",
+            link: "https://status.menghuan1918.com/status/menghuan1918",
           },
           {
             text: "About me",
