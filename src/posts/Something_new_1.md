@@ -107,6 +107,8 @@ pip install requests<2.2.29
 
 > 除了首页的图标`heroImage`貌似只能读取svg文件以外...最开始尝试的png图片，老是报错还以为是路径。
 
+![就是这样](../images/4/Preview.png)
+
 ### 改进的更新脚本
 
 随着写的文章多起来了(指加上这篇水文也才4篇)，开始有往文章里面插入图片的需求了。于是在原先的更新脚本中插入了一个[对特定文件夹图片进行压缩](https://github.com/Menghuan1918/WebPage/blob/main/Images.sh)的脚本。

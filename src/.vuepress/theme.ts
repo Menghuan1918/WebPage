@@ -92,7 +92,7 @@ export default hopeTheme({
 
 
     components: {
-      components: ["Badge", "VPCard", "VidStack"],
+      components: ["Badge", "VPCard", "VidStack","SiteInfo"],
     },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
@@ -242,6 +242,11 @@ export default hopeTheme({
           link: "https://status.menghuan1918.com/status/menghuan1918",
         },
         {
+          text: "友链",
+          icon: "link",
+          link: "links",
+        },
+        {
           text: "关于",
           icon: "info",
           link: "/intro",
@@ -265,6 +270,11 @@ export default hopeTheme({
             text: "状态",
             icon: "chart-column",
             link: "https://status.menghuan1918.com/status/menghuan1918",
+          },
+          {
+            text: "友链",
+            icon: "link",
+            link: "links",
           },
           {
             text: "关于我",
