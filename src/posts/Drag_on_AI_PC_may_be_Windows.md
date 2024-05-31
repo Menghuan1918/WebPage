@@ -37,4 +37,8 @@ Ollama + llama3-8B基本可以满足基本的翻译工作了，并且其也能 _
 
 [参考这个issue](https://github.com/ggerganov/llama.cpp/issues/6442)，在部分加载到GPU上时Windows会显著慢于Linux，我自己实测也是这样，在使用llama.cpp部分加载模型到GPU，设置的层数相同的情况下Windows也会慢上几倍。~~不过这似乎并不能解释ollama在WLS2上为什么会更快~~
 
-> PS:我在ollama上提了issue了...看会不会有后续
+## 后续
+
+事情依然没解决：一个河里的推测是Windows会占用更多的显存从而导致模型无法完全加载到GPU上。而在不完全加载时WLS2的运行效率也远高于Windows原生...因此得出结论：即使不能在原生的linux上运行大模型，也可以在WSL2上运行以取得更高的生成速度。
+
+> 在更好的CPU上，不完全加载时WSL2甚至能有Windows原生2倍的速度。见[我提的这个issues](https://github.com/ollama/ollama/issues/4585)。
