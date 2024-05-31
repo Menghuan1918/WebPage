@@ -8,6 +8,10 @@ icon: circle-info
 
 可能会不定期更新一些折腾杂谈🥳
 
+## 我的一些项目
+
+为什么不去我的[Github](https://github.com/Menghuan1918)康康呢~
+
 ## 关于个人设备
 
 ### 电子设备

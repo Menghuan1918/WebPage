@@ -20,3 +20,30 @@ title: 友链
   preview="https://img2.imgtp.com/2024/05/19/UPcefccD.png"
 />
 
+<SiteInfo
+  name="晓空blog"
+  desc="探索更大的世界"
+  url="https://blog.moeworld.tech"
+  logo="https://img.cdn.loliloli.net/content/images/users/V3Q/av_1625277536.png"
+  preview="https://blog.menghuan1918.com/assets/images/Page.png"
+/>
+
+<SiteInfo
+  name="慕雪的寒舍"
+  desc="爱折腾的代码初学者"
+  url="https://blog.musnow.top/"
+  logo="https://blog.musnow.top/favicon.jpg"
+  preview="https://blog.musnow.top/page_sc.png"
+/>
+
+上面的都是我认识的一些朋友~排名不分先后！
+
+~~当然也欢迎把我加到你的友链中~~
+
+```
+站点名字：Menghuan1918的个人博客
+链接：https://blog.menghuan1918.com/
+头像：https://blog.menghuan1918.com/favicon.ico
+描述：爱折腾的摆烂咸鱼
+网站截图：https://blog.menghuan1918.com/assets/Preview-BYYtFN_6.png
+```
