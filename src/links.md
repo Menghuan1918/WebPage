@@ -8,8 +8,8 @@ title: 友链
   name="学海无涯"
   desc="停止摆烂，背水一战"
   url="https://clb.pages.dev/"
-  logo="https://img2.imgtp.com/2024/04/04/A1kg7et8.gif"
-  preview="https://img2.imgtp.com/2024/05/01/GL4u8Ncr.png"
+  logo="https://s2.loli.net/2024/06/02/wuJknzxaFigDSdL.gif"
+  preview="https://s2.loli.net/2024/06/09/WIRw2TYaoljv46S.png"
 />
 
 <SiteInfo
@@ -17,7 +17,7 @@ title: 友链
   desc="惬意小屋 - 点滴记忆"
   url="https://blog.goodboyboy.top/"
   logo="https://gravatar.goodboyboy.top/avatar/9da9d1d515d273d4794015f2321f6e04?s=96&d=monsterid&r=g"
-  preview="https://img2.imgtp.com/2024/05/19/UPcefccD.png"
+  preview="https://blog.menghuan1918.com/assets/images/Page.png"
 />
 
 <SiteInfo

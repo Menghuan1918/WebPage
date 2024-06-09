@@ -10,7 +10,7 @@ tags:
 copyright: CC BY-NC-ND 4.0
 ---
 
-这周试了下运用Dify + xinference + ollama打造带**重排序**(Rerank)步骤的知识库问答，更好的是----即使在我的3060M上其也能**完全本地**运行并有不错的效果！3060M本地运行`llama3-9B`的生成速度参照[前文](https://blog.menghuan1918.com/posts/Drag_on_AI_PC_may_be_Windows.html)。
+记录下运用Dify + xinference + ollama打造带**重排序**(Rerank)步骤的知识库问答，更好的是----即使在我的3060M上其也能**完全本地**运行并有不错的效果！3060M本地运行`llama3-9B`的生成速度参照[前文](https://blog.menghuan1918.com/posts/Drag_on_AI_PC_may_be_Windows.html)。
 
 <!-- more -->
 
