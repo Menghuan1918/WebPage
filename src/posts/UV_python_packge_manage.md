@@ -44,15 +44,6 @@ rm -rf ~/miniconda3/miniconda.sh
 ```
 :::
 
-> [!info]
-> 重要的事情说三遍：
->
-> Windows上使用winget安装miniconda不需要你自己配置环境变量！
->
-> Windows上使用winget安装miniconda不需要你自己配置环境变量！
->
-> Windows上使用winget安装miniconda不需要你自己配置环境变量！
-
 随后使用`conda init 你用的命令行工具`进行初始化，例如`conda init bash`。当然你也可以直接`conda init --all`全都给初始化。
 
 ### uv
