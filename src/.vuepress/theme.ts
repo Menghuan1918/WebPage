@@ -89,23 +89,49 @@ export default hopeTheme({
       categoryId: "DIC_kwDOLcYFwM4Cdwpr",
     },
 
-
-
-    components: {
-      components: ["Badge", "VPCard", "VidStack","SiteInfo"],
+    revealjs: {
+      plugins: ["highlight", "math", "search", "notes", "zoom"],
+      themes: [
+        'auto',
+        'beige',
+        'black',
+        'blood',
+        'league',
+        'moon',
+        'night',
+        'serif',
+        'simple',
+        'sky',
+        'solarized',
+        'white',
+      ],
     },
-
+    markdownMath: {
+      type: "katex",
+    },
+    components: {
+      components: ["Badge", "VPCard", "VidStack", "SiteInfo"],
+    },
+    markdownImage: {
+      figure: true,
+      lazyload: true,
+      mark: true,
+      size: true,
+    },
+    markdownHint: {
+      // 启用 GFM 警告
+      alert: true,
+    },
+    markdownTab: {
+      tabs: true,
+      codeTabs: true,
+    },
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
-      alert: true,
       align: true,
       attrs: true,
-      codetabs: true,
       component: true,
       demo: true,
-      figure: true,
-      imgLazyload: true,
-      imgSize: true,
       include: true,
       mark: true,
       stylize: [
@@ -123,7 +149,6 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
       vPre: true,
 
       // 在启用之前安装 chart.js
@@ -140,8 +165,6 @@ export default hopeTheme({
       // gfm requires mathjax-full to provide tex support
       // gfm: true,
 
-      // 在启用之前安装 katex
-      katex: true,
 
       // 在启用之前安装 mathjax-full
       // mathjax: true,
@@ -154,9 +177,7 @@ export default hopeTheme({
       // },
 
       // 在启用之前安装 reveal.js
-      // revealJs: {
-      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-      // },
+
 
       // 在启用之前安装 @vue/repl
       // vuePlayground: true,

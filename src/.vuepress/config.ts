@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-import { hope } from "vuepress-theme-hope";
 import { hopeTheme } from "vuepress-theme-hope";
 import { getCommentPlugin } from "vuepress-theme-hope";
 
