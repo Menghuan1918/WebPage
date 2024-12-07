@@ -6,12 +6,17 @@ export default sidebar({
     {
       text: "文章",
       icon: "book",
-      prefix: "posts/",
-      children: "structure",
+      prefix: "category/",
+      children: [
+        "ai",
+        "software",
+        "linux",
+        "website",
+      ]
     },
     {
-      text:"文件",
-      icon:"cloud",
+      text: "文件",
+      icon: "cloud",
       link: "https://blog.menghuan1918.com/AlistStore/",
     },
     {

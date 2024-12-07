@@ -41,7 +41,7 @@ title: 友链
 ~~当然也欢迎把我加到你的友链中~~
 
 ```
-站点名字：Menghuan1918的个人博客
+站点名字：Menghuan1918的博客
 链接：https://blog.menghuan1918.com/
 头像：https://blog.menghuan1918.com/favicon.ico
 描述：爱折腾的摆烂咸鱼

@@ -9,6 +9,7 @@ tags:
   - Software
   - Arch
 copyright: CC BY-NC-ND 4.0
+star: true
 ---
 
 这么多年的(插件)发展之后，实际上在VSCode中配置C/C++语言已经不是一件很困难的事情了，一般而言，所需要做的仅仅是安装`C/C++`插件，**理论**上其会自动检测编译器并生成响应的配置文件。

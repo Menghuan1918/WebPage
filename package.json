@@ -12,22 +12,22 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.18",
-    "@vuepress/plugin-feed": "2.0.0-rc.57",
+    "@vuepress/plugin-feed": "2.0.0-rc.61",
     "flowchart.ts": "^3.0.1",
     "katex": "^0.16.11",
     "vidstack": "^1.12.12",
-    "vue": "^3.5.12",
+    "vue": "^3.5.13",
     "vuepress": "2.0.0-rc.18",
     "vuepress-plugin-comment2": "2.0.0-rc.30",
     "vuepress-plugin-md-enhance": "2.0.0-rc.59",
     "vuepress-theme-hope": "2.0.0-rc.59"
   },
   "dependencies": {
-    "@vuepress/plugin-markdown-hint": "2.0.0-rc.57",
-    "@vuepress/plugin-markdown-image": "2.0.0-rc.57",
-    "@vuepress/plugin-markdown-math": "2.0.0-rc.57",
-    "@vuepress/plugin-markdown-tab": "2.0.0-rc.58",
-    "@vuepress/plugin-revealjs": "2.0.0-rc.57",
+    "@vuepress/plugin-markdown-hint": "2.0.0-rc.61",
+    "@vuepress/plugin-markdown-image": "2.0.0-rc.61",
+    "@vuepress/plugin-markdown-math": "2.0.0-rc.61",
+    "@vuepress/plugin-markdown-tab": "2.0.0-rc.61",
+    "@vuepress/plugin-revealjs": "2.0.0-rc.61",
     "dashjs": "^4.7.4",
     "hls.js": "^1.5.17"
   }

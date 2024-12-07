@@ -8,6 +8,7 @@ tags:
   - Software
   - Docker
 copyright: CC BY-NC-ND 4.0
+star: true
 ---
 
 巨硬最近新出了个 [graphrag](https://github.com/microsoft/graphrag) ，号称其能提取有意义的结构化数据，不过遗憾的是默认情况下其只能读取txt或者csv数据。这次就让我们用~~我搓的~~外部库`pdfdeal`将PDF转换为带格式化的txt，再结合更便宜的deepseek进行构建。

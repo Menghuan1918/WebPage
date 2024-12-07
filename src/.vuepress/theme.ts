@@ -279,8 +279,13 @@ export default hopeTheme({
           {
             text: "文章",
             icon: "book",
-            prefix: "posts/",
-            children: "structure",
+            prefix: "category/",
+            children: [
+              "ai/",
+              "software/",
+              "linux/",
+              "website/",
+            ]
           },
           {
             text: "文件",

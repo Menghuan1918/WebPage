@@ -5,9 +5,9 @@ icon: home
 title: 首页
 heroImage: /logo.svg
 heroText: Menghuan1918的个人博客
-heroFullScreen: false
-tagline: 一个普通的大学生，目前在学习计算机相关知识，喜欢折腾各种东西。
-# bgImage: /bg.jpg
+heroFullScreen: true
+tagline: 大三，是学生。计算机科学专业，喜欢折腾各种东西。
+bgImage: /bg.webp
 # bgImageDark: /bg-dark.png
 # projects:
 #   - icon: project

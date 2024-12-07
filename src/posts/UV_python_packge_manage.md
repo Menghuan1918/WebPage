@@ -8,6 +8,7 @@ tags:
   - Windows
   - Software
 copyright: CC BY-NC-ND 4.0
+star: true
 ---
 
 UV，作为新一代的，**性能极佳**的Python的包安装器和解析器，其网上中文教程却寥寥无几...
