@@ -51,12 +51,16 @@ Doc2X API的python封装，同时附带本地的文本处理。目前应该已�
 你可以访问我在Arch Wiki CN上的主页，如果我维护中的页面对应英文页面有重大更新请提醒我一下。
 - [AUR cursor-appimage](https://aur.archlinux.org/packages/cursor-appimage)
 如果这个包过期了也请按一下`Flag package out-of-date `🥳
+- [AUR picgo-appimage](https://aur.archlinux.org/packages/picgo-appimage) 还是appimage的软件包好维护
 
 ## 关于个人设备
 
 ### 电子设备
 
-- 天选(坑)二，i7-11800H + 3060M，40G内存3200Mhz，2TB + 512GB SSD。
+- PC，AMD 7500F + 4070S，32G 6400，2TB + 1TB + 512G(硬盘盒) + 512G(硬盘盒)
+  - Arch Linux Linux zen内核
+
+- 天选(坑)二，i7-11800H + 3060M，40G内存3200Mhz，~~2TB +~~ 512GB SSD(被拿去给PC用了)。
   - 平时都放寝室，在外面都是通过tailscale远程SSH连接
   - 双系统，Arch Linux + Windows 11 (虽然很少用后者了)
   - 两年半后散热差到了一种境界了(日常有在清灰！)
