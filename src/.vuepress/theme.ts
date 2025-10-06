@@ -1,5 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { MR_HOPE_AVATAR } from "./logo.js";
+import { cut } from "nodejs-jieba";
 
 export default hopeTheme({
   hostname: "https://blog.menghuan1918.com",
@@ -20,7 +21,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "开源爱好者",
+    description: "Backend & AI Developer<br>于信息洪流中，寻找下一个奇点的信号",
     intro: "/intro",
     medias: {
       // Baidu: "https://example.com",
@@ -80,6 +81,16 @@ export default hopeTheme({
     },
     blog: true,
     feed: true,
+
+    slimsearch: {
+      // 索引全部内容
+      indexContent: true,
+      indexOptions: {
+        // 使用 nodejs-jieba 进行分词
+        tokenize: (text:any, fieldName:any) =>
+          fieldName === 'id' ? [text] : cut(text, true),
+      },
+    },
     // 在启用之前需要安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务器，在生产环境中请自行部署并使用自己的服务器！
     comment: {
