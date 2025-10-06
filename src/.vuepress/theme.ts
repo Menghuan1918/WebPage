@@ -263,6 +263,10 @@ export default hopeTheme({
           },
         ],
       },
+      blog: {
+        description: "Backend & AI Developer",
+        intro: "/en/intro",
+      },
       footer: "Unless otherwise stated, all posts on this blog are licensed under CC BY-NC-SA 4.0 Licence.",
     }
   }

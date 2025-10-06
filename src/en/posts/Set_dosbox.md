@@ -1,7 +1,7 @@
 ---
 title: Configuring DOSBox and its window size
 date: 2024-04-28
-categories: Linux
+category: Linux
 tags:
   - Windows
   - Linux

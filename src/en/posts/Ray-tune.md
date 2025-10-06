@@ -1,7 +1,7 @@
 ---
 title: Auto-tuning hyperparameters with ray.tune
 date: 2024-11-24
-categories: AI
+category: AI
 tags:
   - AI
   - torch

@@ -1,7 +1,7 @@
 ---
 title: The final choose of note：Obsidian + Self-hosted LiveSync
 date: 2024-05-13
-categories: Software
+category: Software
 tags:
   - Raspberrypi
   - Linux

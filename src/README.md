@@ -3,10 +3,12 @@ home: true
 layout: Blog
 icon: home
 title: 首页
-heroImage: /logo.svg
-heroText: Menghuan1918的个人博客
+# heroImage: /logo.svg
+heroText: Menghuan1918
 heroFullScreen: true
-tagline: 大三，是学生。计算机科学专业，喜欢折腾各种东西。
+tagline: |
+  Backend & AI Developer
+  于信息洪流中，寻找下一个奇点的信号
 bgImage: /bg.webp
 # bgImageDark: /bg-dark.png
 # projects:

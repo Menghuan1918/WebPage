@@ -24,7 +24,7 @@ title: 友链
   name="晓空blog"
   desc="探索更大的世界"
   url="https://blog.moeworld.tech"
-  logo="https://img.cdn.loliloli.net/content/images/users/V3Q/av_1625277536.png"
+  logo="https://cn.cravatar.com/avatar/7cbc71db79d1e7e0ce6f640851c86ade3d7fbcce4d42ac759dd617e13cf62533?s=192&d=mm&r=g"
   preview="https://blog.menghuan1918.com/assets/images/Page.png"
 />
 
@@ -36,14 +36,22 @@ title: 友链
   preview="https://blog.musnow.top/page_sc.png"
 />
 
+<SiteInfo
+  name="MaxQi的说说"
+  desc="爱折腾的代码初学者"
+  url="https://maxqi.top"
+  logo="https://p.maxqi.top/img/2025/10/01/68dce7326320a.png"
+  preview="https://blog.menghuan1918.com/assets/images/Page.png"
+/>
+
 上面的都是我认识的一些朋友~排名不分先后！
 
 ~~当然也欢迎把我加到你的友链中~~
 
 ```
-站点名字：Menghuan1918的博客
+站点名字：Menghuan1918
 链接：https://blog.menghuan1918.com/
 头像：https://blog.menghuan1918.com/favicon.ico
-描述：爱折腾的摆烂咸鱼
+描述：于信息洪流中，寻找下一个奇点的信号
 网站截图：https://blog.menghuan1918.com/assets/Preview-BYYtFN_6.png
 ```

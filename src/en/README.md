@@ -3,10 +3,12 @@ home: true
 layout: Blog
 icon: home
 title: Home
-heroImage: /logo.svg
-heroText: Menghuan1918's personal blog
+# heroImage: /logo.svg
+heroText: Menghuan1918
 heroFullScreen: false
-tagline: An average college student, currently studying computer-related knowledge and enjoys tossing around all sorts of stuff.
+tagline: |
+  Backend & AI Developer
+  Searching for the signal of the next singularity in the information deluge
 # bgImage: /bg.jpg
 # bgImageDark: /bg-dark.png
 # projects:

@@ -1,7 +1,7 @@
 ---
 title: Means of attack on AI systems (brief overview)
 date: 2024-11-06
-categories: AI
+category: AI
 tags:
   - AI
   - LLM
