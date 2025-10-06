@@ -1,7 +1,7 @@
 ---
 title: Ollama跨平台性能比拼：Windows遥遥落后
 date: 2024-05-23
-categories: Software
+category: Software
 tags:
   - Windows
   - LLM

@@ -1,7 +1,7 @@
 ---
 title: 折腾杂谈:部署Alist并整合/服务器优化
 date: 2024-04-10
-categories: Website
+category: Website
 tags:
   - Linux
   - Docker

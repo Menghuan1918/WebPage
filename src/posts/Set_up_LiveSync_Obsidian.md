@@ -1,7 +1,7 @@
 ---
 title: 笔记软件的最终选择：Obsidian + Self-hosted LiveSync
 date: 2024-05-08
-categories: Software
+category: Software
 tags:
   - Raspberrypi
   - Linux

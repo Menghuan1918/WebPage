@@ -1,7 +1,7 @@
 ---
 title: AI系统攻击手段(简要概述)
 date: 2024-11-06
-categories: AI
+category: AI
 tags:
   - AI
   - LLM

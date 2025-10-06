@@ -1,7 +1,7 @@
 ---
 title: 折腾杂谈:部署一个网页在线状态面板/反代切换到Caddy
 date: 2024-05-16
-categories: Website
+category: Website
 tags:
   - Raspberrypi
   - Linux

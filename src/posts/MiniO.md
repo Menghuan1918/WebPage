@@ -1,7 +1,7 @@
 ---
 title: 使用Docker(MinIO)和Caddy创建图床服务
 date: 2024-11-23
-categories: Software
+category: Software
 tags:
   - Linux
   - Software

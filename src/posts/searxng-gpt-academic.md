@@ -1,7 +1,7 @@
 ---
 title: 如虎添翼：为gpt_academic配置searxng搜索
 date: 2024-06-26
-categories: Software
+category: Software
 tags:
   - LLM
   - Linux

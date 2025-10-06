@@ -1,7 +1,7 @@
 ---
 title: 包管理工具UV使用指南：全面替代conda
 date: 2024-06-06
-categories: Software
+category: Software
 tags:
   - Python
   - Linux

@@ -1,7 +1,7 @@
 ---
 title: My Arch Linux - 外观与字体
 date: 2024-12-08
-categories: Linux
+category: Linux
 tags:
   - KDE
   - Software

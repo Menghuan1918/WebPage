@@ -1,7 +1,7 @@
 ---
 title: 在VSCode中配置多平台的C/C++语言支持
 date: 2024-04-17
-categories: Software
+category: Software
 tags:
   - Windows
   - VSCode

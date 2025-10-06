@@ -1,7 +1,7 @@
 ---
 title: 在Linux上交叉编译出Windows可执行程序
 date: 2024-04-05
-categories: Linux
+category: Linux
 tags:
   - Windows
   - openGL

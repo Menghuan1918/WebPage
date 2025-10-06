@@ -1,7 +1,7 @@
 ---
 title: RAG预处理增强：让Fastgpt/Dify召回更多东西
 date: 2024-08-16
-categories: Software
+category: Software
 tags:
   - LLM
   - RAG

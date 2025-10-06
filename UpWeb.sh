@@ -2,8 +2,8 @@
 
 cd $HOME/Documents/WebPage
 
-# 压缩文件以及生成静态页面
-./Images.sh
+# 压缩文件，由于已经换成自部署S3储存文件，所以这个不需要了)
+# ./Images.sh
 
 # 上传文件
 rsync -rvzi --times --delete ./src/.vuepress/dist/ root@Ali_hk:/var/www/menghuan/

@@ -1,7 +1,7 @@
 ---
 title: 使用ray.tune进行自动调整超参数
 date: 2024-11-24
-categories: AI
+category: AI
 tags:
   - AI
   - torch

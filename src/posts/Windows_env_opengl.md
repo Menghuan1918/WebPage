@@ -1,7 +1,7 @@
 ---
 title: 利用MSYS2在windows上配置C/C++/openGL开发环境
 date: 2024-04-03
-categories: Software
+category: Software
 tags:
   - Windows
   - MSYS2

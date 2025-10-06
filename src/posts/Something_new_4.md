@@ -1,7 +1,7 @@
 ---
 title: 折腾杂谈:运用Dify+xinference+ollama构建知识库
 date: 2024-05-31
-categories: Software
+category: Software
 tags:
   - LLM
   - Linux

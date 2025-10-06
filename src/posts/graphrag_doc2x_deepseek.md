@@ -1,7 +1,7 @@
 ---
 title: 将PDF知识图谱化：graphrag+Doc2X+DeepSeek
 date: 2024-06-26
-categories: Software
+category: Software
 tags:
   - LLM
   - Linux

@@ -1,7 +1,7 @@
 ---
 title: 在Arch Linux下编译32位C程序出错
 date: 2024-03-10
-categories: Linux
+category: Linux
 tags:
   - Arch
   - Linux

@@ -1,7 +1,7 @@
 ---
 title: Speedometer 3.0分数测试(电子斗蛐蛐)
 date: 2024-03-12
-categories: Software
+category: Software
 tags:
   - Arch
   - Linux
