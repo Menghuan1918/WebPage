@@ -9,7 +9,7 @@ tags:
   - Python
 star: true
 isOriginal: true
-copyright: CC BY-NC-ND 4.0
+license: CC BY-NC-ND 4.0
 ---
 For models, the quality of hyperparameter settings can significantly impact performance. However, manually adjusting them can be quite tedious. We can utilize various tools for the automatic tuning of model hyperparameters; for instance, in this article, we use ray.tune for adjustment. It only requires minor modifications—about a dozen lines—to the original code to start the automated tuning process (I personally find it easier to use than NNI).
 

@@ -7,7 +7,7 @@ tags:
   - LLM
   - Software
 isOriginal: true
-copyright: CC BY-NC-ND 4.0
+license: CC BY-NC-ND 4.0
 ---
 
 Recently, I've been researching attacks on AI systems for my final year project. Below is a brief overview of some of the research, mainly on newer adversarial attacks on computer vision and NLP.

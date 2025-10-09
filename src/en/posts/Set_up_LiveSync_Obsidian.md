@@ -8,7 +8,7 @@ tags:
   - Docker
   - Software
 isOriginal: true
-copyright: CC BY-NC-ND 4.0
+license: CC BY-NC-ND 4.0
 ---
 
 As the title is not so accurate, it should say that almost all notes are written in Obsidian, but some note that need handwritten still being written by OneNote, after all Obsidian doesn't official support handwritten.

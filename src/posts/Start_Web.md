@@ -5,7 +5,7 @@ date: 2024-02-29
 category: Website
 tag:
   - nginx
-copyright: CC BY-NC-ND 4.0
+license: CC BY-NC-ND 4.0
 isOriginal: true
 ---
 

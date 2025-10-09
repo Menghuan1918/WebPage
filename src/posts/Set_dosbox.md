@@ -8,7 +8,7 @@ tags:
   - Software
   - Arch
   - Ubuntu
-copyright: CC BY-NC-ND 4.0
+license: CC BY-NC-ND 4.0
 isOriginal: true
 ---
 

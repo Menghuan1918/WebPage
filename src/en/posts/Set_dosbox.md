@@ -9,7 +9,7 @@ tags:
   - Arch
   - Ubuntu
 isOriginal: true
-copyright: CC BY-NC-ND 4.0
+license: CC BY-NC-ND 4.0
 ---
 
 By default, DOSBox's window size is specified in pixels, which is a little bit too small for modern screens. It is not possible to drag and drop the window to resize it, although it is possible to use `alt + Enter` to switch it to full-screen mode, but for efficiency reasons it is better to resize the window.

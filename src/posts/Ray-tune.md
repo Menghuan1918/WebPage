@@ -8,7 +8,7 @@ tags:
   - Software
   - Python
 star: true
-copyright: CC BY-NC-ND 4.0
+license: CC BY-NC-ND 4.0
 isOriginal: true
 ---
 
