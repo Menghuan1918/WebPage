@@ -6,6 +6,7 @@ tags:
   - AI
   - LLM
   - Software
+isOriginal: true
 copyright: CC BY-NC-ND 4.0
 ---
 

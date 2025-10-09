@@ -7,6 +7,7 @@ tags:
   - RAG
   - Software
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 目前的Fastgpt，Dify(或者其他同类产品)，目前知识库召回的本质上还是分片块的文本，召回的还是文本信息。不过，我们可以进行一些预处理，提升其召回精度的同时，使其也能同时召回将图片与公式表格等内容。

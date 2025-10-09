@@ -6,6 +6,12 @@
   font-size: 6em;
   font-weight: bold;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  max-width: 100%;
 }
 
 // 设置副标题/描述的颜色

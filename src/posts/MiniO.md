@@ -7,6 +7,7 @@ tags:
   - Software
   - Docker
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 以往博客都是直接将文件粘贴到文件夹，但是其不是很方便，并且也不方便转移(到其他平台上)。最后综合几个选择，选择自建 MinIO 当作图床，同时也实验一下 MinIO 的文件压缩功能。

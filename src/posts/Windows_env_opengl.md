@@ -9,6 +9,7 @@ tags:
   - Software
   - Arch
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 众所周知，在windows上配置一些软件(例如GCC，openGL，make...)是相当困难繁琐的，不过好在也不是没有解决方法。比如[MSYS2](https://www.msys2.org/)，它提供了一个类Unix的构建环境，可以像在linux上一样安装软件包，而不需要你一个一个手动设置环境变量等等工作(不过是windows平台的)。

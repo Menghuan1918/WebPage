@@ -8,6 +8,7 @@ tags:
   - Games
   - Software
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 最近在玩《ATRI -My Dear Moments-》，然而其设计画质居然是720P，UI等等都没有对更高画质匹配 ~~这明明是2020年的游戏喂！~~。再外接一块2K屏幕(2560x1440)实在忍受不了，于是想起来是否能强制将其通过某种方式更为清晰化一些。最终借助一些工具强制应用FSR对窗口进行放大。

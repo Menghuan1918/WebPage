@@ -7,6 +7,7 @@ tags:
   - Software
   - Arch
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 本文旨在Arch Linux中配置完善的字体，同时在最小化安装外部包，不影响性能，同时尽可能简化配置的情况下美化KDE的外观。

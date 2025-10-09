@@ -6,6 +6,7 @@ category: Website
 tag:
   - nginx
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 ## 环境

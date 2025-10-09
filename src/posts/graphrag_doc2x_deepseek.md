@@ -8,6 +8,7 @@ tags:
   - Software
   - Docker
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 star: true
 ---
 

@@ -9,6 +9,7 @@ tags:
   - Ubuntu
   - Docker
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 使用gpt_academic + searxng搜索，进行网页或者学术论文的快速检索。实验下来使用~~超级便宜的~~`deepseek-chat`也能有相当好的效果。不过由于要处理的文本量偏多，原版的`llama3`处理这种任务就有点力不从心了，可能需要使用上下文更大的本地模型才能有更好的效果。

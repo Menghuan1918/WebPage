@@ -8,6 +8,7 @@ tags:
   - Docker
   - Software
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 其实标题也不怎么准确，应当是说，主要的笔记现在都是使用Obsidian写，但是部分需要手写的笔记依然是在使用OneNote编写。毕竟Obsidian并没有官方的手写支持。

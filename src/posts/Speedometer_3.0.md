@@ -8,6 +8,7 @@ tags:
   - Windows
   - Software
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 今天新的[Speedometer 3.0](https://browserbench.org/Speedometer3.0/) 浏览器基准测试发布了，据称其能更好的反应浏览器的现代负载，那么就直接测一测看看吧 ~~(电子斗蛐蛐)~~ !

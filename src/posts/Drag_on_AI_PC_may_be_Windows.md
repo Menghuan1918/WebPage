@@ -9,6 +9,7 @@ tags:
   - Arch
   - Ollama
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 Ollama + llama3-8B基本可以满足基本的翻译工作了，并且其也能 _流畅_ 地在我的残血3060M上运行。当然，正如标题所言，这个流畅的前提是不在Windows下运行。

@@ -9,6 +9,7 @@ tags:
   - Software
   - Arch
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 star: true
 ---
 

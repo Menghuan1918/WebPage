@@ -9,6 +9,7 @@ tags:
   - Arch
   - Ubuntu
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 借助MinGW-w64，在Linux上也可以交叉编译出Windows可执行程序。前文提到在Windows上使用MSYS2配置openGL编译环境，虽然没出现什么问题，但是校园网不能支撑2k级别的远程桌面(1080P顶天了)，放在轻薄本的屏幕上看起来太不自在了。然而限于课程要求，需要编译出exe程序，于是便有了本文。

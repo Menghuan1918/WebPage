@@ -9,6 +9,7 @@ tags:
   - Arch
   - Ubuntu
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 DOSBox默认情况下的窗口大小是由像素大小指定的，对于现代的屏幕而言稍微有亿点偏小了。并且其窗口还不能进行拖拽调整，虽然可以使用`alt + Enter`将其切换为全屏模式，不过考虑到效率问题还是调整其窗口大小更好一点。

@@ -7,6 +7,7 @@ tags:
   - LLM
   - Software
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 最近因为毕设，在研究对于AI系统攻击手段。以下是一些浅要简短的研究的综述了，主要是关于计算机视觉以及NLP的较新的对抗性攻击手段。

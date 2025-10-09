@@ -9,6 +9,7 @@ tags:
   - caddy
   - Software
 copyright: CC BY-NC-ND 4.0
+isOriginal: true
 ---
 
 本文内容：
