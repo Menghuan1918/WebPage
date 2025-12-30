@@ -18,6 +18,8 @@ export default hopeTheme({
 
   // 页脚
   displayFooter: true,
+  // 不显示git的名字
+  contributors: false,
 
   // 博客相关
   blog: {
