@@ -21,11 +21,11 @@ isOriginal: true
 
 实际上如果你在网上搜索，大部分教程使用的都是NNI(Neural Network Intelligence)。但是NNI已经停止开发许久，并且其储存库也在今年9月被设置为存档只读了。
 
-![QaQ改了半天程序才发现NNI居然存档了](https://minio.menghuan1918.com:443/markdown/2024/11/24/image-20241124144012-lx4yiur.png)
+![QaQ改了半天程序才发现NNI居然存档了](https://rustfs.menghuan1918.com/markdown/2024/11/24/image-20241124144012-lx4yiur.png)
 
 更不幸的是，我在使用NNI时遇到了严重的BUG，导致我无法使用NNI去进行调参(否则也不会有本文了)。如下图所示，设置的运行100次查找最优超参数，但是无论如何设置，在运行完2轮后其会停滞，不再继续运行。
 
-![找不到原因](https://minio.menghuan1918.com:443/markdown/2024/11/24/network-asset-微信图片_20241122131731-20241124141956-e92mjdw-20241124143038-j2ctn9c.png)
+![找不到原因](https://rustfs.menghuan1918.com/markdown/2024/11/24/network-asset-微信图片_20241122131731-20241124141956-e92mjdw-20241124143038-j2ctn9c.png)
 
 ## 使用ray.tune
 
@@ -175,8 +175,8 @@ model.load_state_dict(state_dict)
 
 随后直接`python File.py`就开始愉快的自动调参了：
 
-![风扇在咆哮！](https://minio.menghuan1918.com:443/markdown/2024/11/24/image-20241124161407-fcj60xj.png)
+![风扇在咆哮！](https://rustfs.menghuan1918.com/markdown/2024/11/24/image-20241124161407-fcj60xj.png)
 
 在尝试完成所有的调参次数后(你给定的num_samples)，其会自动结束并打印所有调参的结果：
 
-![你可以看到实际上不少表现不佳的实验被提前停止了](https://minio.menghuan1918.com:443/markdown/2024/11/24/image-20241124164716-tb8laag_repeat_1732438196263__838897.png)
+![你可以看到实际上不少表现不佳的实验被提前停止了](https://rustfs.menghuan1918.com/markdown/2024/11/24/image-20241124164716-tb8laag_repeat_1732438196263__838897.png)

@@ -19,11 +19,11 @@ For models, the quality of hyperparameter settings can significantly impact perf
 
 In fact, if you search online, most tutorials utilize NNI (Neural Network Intelligence). However, NNI has not been under development for a long time now, and its repository was archived in a read-only state in September this year.
 
-![image](https://minio.menghuan1918.com:443/markdown/2024/11/24/image-20241124144012-lx4yiur.png)
+![image](https://rustfs.menghuan1918.com/markdown/2024/11/24/image-20241124144012-lx4yiur.png)
 
 Unfortunately, I encountered a serious bug while using NNI that prevented me from tuning hyperparameters (otherwise, this article wouldn't exist). As illustrated in the image below, I set it to run 100 times to find the optimal hyperparameters, but regardless of my settings, it halts after completing just 2 rounds.
 
-![微信图片_20241122131731](https://minio.menghuan1918.com:443/markdown/2024/11/24/network-asset-微信图片_20241122131731-20241124141956-e92mjdw-20241124143038-j2ctn9c.png)
+![微信图片_20241122131731](https://rustfs.menghuan1918.com/markdown/2024/11/24/network-asset-微信图片_20241122131731-20241124141956-e92mjdw-20241124143038-j2ctn9c.png)
 
 ### Using ray.tune
 
@@ -171,8 +171,8 @@ model.load_state_dict(state_dict)
 
 You can then simply run `python File.py` to start the enjoyable process of automatic hyperparameter tuning:
 
-![image](https://minio.menghuan1918.com:443/markdown/2024/11/24/image-20241124161407-fcj60xj.png)
+![image](https://rustfs.menghuan1918.com/markdown/2024/11/24/image-20241124161407-fcj60xj.png)
 
 Upon completing all attempts for hyperparameter tuning (as specified by `num_samples`), it will automatically end and print all the results
 
-![image](https://minio.menghuan1918.com:443/markdown/2024/11/24/image-20241124164716-tb8laag_repeat_1732438196263__838897.png)
+![image](https://rustfs.menghuan1918.com/markdown/2024/11/24/image-20241124164716-tb8laag_repeat_1732438196263__838897.png)

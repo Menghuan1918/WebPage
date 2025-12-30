@@ -16,7 +16,7 @@ isOriginal: true
 
 ## 文件
 
-**[点击此处查看/下载PDF格式的文件](https://blog.menghuan1918.com/AlistStore/attacks%20AI%20system/slide_CN.pdf)**
+**[点击此处查看/下载PDF格式的文件](https://rustfs.menghuan1918.com/markdown/alist/attacks%20AI%20system/slide_CN.pdf)**
 
 ## 幻灯片
 

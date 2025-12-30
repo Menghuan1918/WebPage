@@ -6,6 +6,6 @@ cd $HOME/Documents/WebPage
 # ./Images.sh
 
 # 上传文件
-rsync -rvzi --times --delete ./src/.vuepress/dist/ root@Ali_hk:/var/www/menghuan/
+rsync -rvzi --times --delete ./src/.vuepress/dist/ ubuntu@tc_sg:/var/www/menghuan/
 
 echo "Done!"

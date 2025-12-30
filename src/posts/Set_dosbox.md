@@ -106,9 +106,9 @@ C:
 
 ![我也是看官网文档才发现的...](../images/10/Open_in_Linux.png)
 
-你也可以使用[这个项目](https://github.com/Menghuan1918/Useful-Tools)来脚本化运行DOS程序！其效果就像下面这个[视频](https://blog.menghuan1918.com/AlistStore/DOSBox/dosbox.webm)一样：
+你也可以使用[这个项目](https://github.com/Menghuan1918/Useful-Tools)来脚本化运行DOS程序！其效果就像下面这个[视频](https://rustfs.menghuan1918.com/markdown/alist/DOSBox/dosbox.webm)一样：
 
 <VidStack
-  src="https://blog.menghuan1918.com/AlistStore/d/opt/alist/data/store/opt/alist/data/store/DOSBox/dosbox.webm?sign=fJEv2gHHXV58X1CqJy2lHf9AMnW7ICVkxWyz1GWCEcc=:0"
+  src="https://rustfs.menghuan1918.com/markdown/alist/DOSBox/dosbox.webm"
 />
 

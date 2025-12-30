@@ -16,7 +16,7 @@ Recently, I've been researching attacks on AI systems for my final year project.
 
 ## PDF File
 
-**[Click here to view/dowload the PDF file](https://blog.menghuan1918.com/AlistStore/attacks%20AI%20system/slide.pdf)**
+**[Click here to view/dowload the PDF file](https://rustfs.menghuan1918.com/markdown/alist/attacks%20AI%20system/slide.pdf)**
 
 ## Slide
 

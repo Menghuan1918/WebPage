@@ -72,8 +72,8 @@ Then return to Obsidian, replace it with https address.
 
 ![So there is no warning now](../../images/11/Https.png)
 
-The synchronisation established in this way is quite fast, refer to [this video](https://blog.menghuan1918.com/AlistStore/Obsidian%E5%90%8C%E6%AD%A5/speedtest.webm):
+The synchronisation established in this way is quite fast, refer to [this video](https://rustfs.menghuan1918.com/markdown/alist/Obsidian同步/speedtest.webm):
 
 <VidStack
-  src="https://blog.menghuan1918.com/AlistStore/d/opt/alist/data/store/opt/alist/data/store/Obsidian%E5%90%8C%E6%AD%A5/speedtest.webm?sign=IHAOHO-UJexhnsjEkfhIXpLmdWAf8E8O_EV2M_ltswc=:0"
+  src="https://rustfs.menghuan1918.com/markdown/alist/Obsidian同步/speedtest.webm"
 />

@@ -72,10 +72,10 @@ machine-name.domain-alias.ts.net {
 
 ![此时就已经没有HTTP的警告了](../images/11/Https.png)
 
-这样建立起来的同步速度相当快，可以参考[这个视频](https://blog.menghuan1918.com/AlistStore/Obsidian%E5%90%8C%E6%AD%A5/speedtest.webm)
+这样建立起来的同步速度相当快，可以参考[这个视频](https://rustfs.menghuan1918.com/markdown/alist/Obsidian同步/speedtest.webm)
 
 <VidStack
-  src="https://blog.menghuan1918.com/AlistStore/d/opt/alist/data/store/opt/alist/data/store/Obsidian%E5%90%8C%E6%AD%A5/speedtest.webm?sign=IHAOHO-UJexhnsjEkfhIXpLmdWAf8E8O_EV2M_ltswc=:0"
+  src="https://rustfs.menghuan1918.com/markdown/alist/Obsidian同步/speedtest.webm"
 />
 
 ## 其他
